@@ -1,1 +1,1 @@
-# aTomeNet
+My project adapts the EMO cognitive architecture—originally designed for social deduction—to solve the mental modeling failures identified in the NegotiationToM benchmark, while integrating Reflexion to enable inter-game strategic learning
