@@ -137,6 +137,51 @@ for G in range(1, 11):  # Games 1 to 10
 
 
     # 5. Evolution (Reflexion)
+
+```
+
+"Multi-Issue Bargaining Task" (specifically the CaSiNo environment ).
+
+Here is the "Ez" explanation:
+
+1. The Setup (The Pile of Junk)
+Imagine there is a pile of random items on a table between two people. In your specific game, the pile always contains exactly:
+
+3 Books
+
+2 Hats
+
+1 Ball
+
+Total Items: 6.
+
+2. The Secret (The "Point Card")
+This is the most important part. You and your opponent have Secret Point Cards.
+
+You might secretly love Hats. (1 Hat = 5 Points).
+
+Your Opponent might secretly hate Hats. (1 Hat = 0 Points).
+
+
+Crucially: You do NOT know each other's point cards. You have to guess what they want based on what they say.
+
+3. The Goal
+Your goal is NOT to split things 50/50. Your goal is to get the items that are High Value on your secret card, and dump the items that are Low Value on your card to the opponent.
+
+4. Example Turn
+The Pile: 3 Books, 2 Hats, 1 Ball.
+
+You (Secretly): Love Books (5 pts), Hate Hats (0 pts).
+
+Opponent (Secretly): Loves Hats (5 pts), Hates Books (0 pts).
+
+The Stupid Way to Play:
+
+"Let's split everything half and half." Result: You get 1.5 Books (7.5 pts) + 1 Hat (0 pts) = 7.5 Points.
+
+The Smart Way (Theory of Mind):
+
+You realize the opponent keeps asking for Hats. You think: "Aha! He loves Hats. I will give him all the Hats if he gives me all the Books." "DEAL: I keep 3 Books, you keep 2 Hats." Result: You get 3 Books (15 pts) + 0 Hats (0 pts) = 15 Points.
     Score = Calculate_Final_Score()
 
     if Score < Score_Threshold:
