@@ -1,7 +1,7 @@
 import pandas as pd
 from datasets import load_dataset
-from main import run_simulation
-from agents import BaseAgent
+from original.main import run_simulation
+from original.agents import BaseAgent
 
 # 1. DOWNLOAD DATASET
 print("Downloading CaSiNo dataset from Hugging Face...")
