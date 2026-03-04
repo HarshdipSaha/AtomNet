@@ -1,0 +1,2247 @@
+[
+    {
+        "game": 0,
+        "outcome": "No Deal",
+        "score_a": 5,
+        "score_b": 5,
+        "card_a": {
+            "Water": 3,
+            "Food": 4,
+            "Firewood": 5
+        },
+        "card_b": {
+            "Food": 3,
+            "Water": 4,
+            "Firewood": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Hey Agent_B, I'm thinking we could work together to create a great camping experience. Considering we both want to reach our target score, I was thinking of offering a starting point of 2 units of Food, 3 units of Water, and 0 units of Firewood. Does this sound like a good foundation for us to build on?\"\n\nI offer: Food 2, Water 3, Firewood 0",
+            "Agent_B: It seems like Agent_A is trying to establish a good foundation, but I'd like to propose a slight adjustment to maximize our scores. Considering our secret points, I think we can do better than that. \n\nI offer: Food 1, Water 4, Firewood 2",
+            "Agent_A: DEAL. I accept your offer.",
+            "Agent_B: I'm glad we were able to come to an agreement. Considering we now have a solid foundation, I think it's time to start adding some more value to our collaboration.",
+            "Agent_A: I'm glad we were able to establish a good foundation. Now that we have a solid starting point, I'm thinking we could focus on adding more value with the items we have available. Considering we both want to reach our target score, I'm curious - do you think we should prioritize adding more units of Water to our collection, or maybe look into acquiring some additional Firewood to really boost our scores?\n\nI offer: Food 3, Water 3, Firewood 0",
+            "Agent_B: It seems like Agent_A is trying to refocus on adding value to our collaboration, but I think we should prioritize acquiring more Firewood to boost our scores. Considering our secret points, Firewood has the highest value, and I believe we should aim to maximize that as soon as possible.\n\nI offer: Food 0, Water 0, Firewood 5",
+            "Agent_A: DEAL. I accept your offer.",
+            "Agent_B: I think we've made some great progress so far, and I'm excited to see where we can take this collaboration. However, considering our secret points, I believe we can do even better by prioritizing the items that will give us the most value. \n\nI offer: Food 1, Water 0, Firewood 5",
+            "Agent_A: DEAL. I accept your offer.",
+            "Agent_B: It seems like we've made a good start, but I think we can do even better by focusing on the items that will give us the most value. Considering our secret points, I believe we should aim to acquire more Water to really boost our scores.\n\nI offer: Food 0, Water 4, Firewood 2",
+            "Agent_A: DEAL. I accept your offer.",
+            "Agent_B: Agent_A, it seems like we've had a productive session so far, and I appreciate your willingness to collaborate. However, considering our secret points and the available items, I think we should focus on acquiring more Food to maximize our scores.\n\nI offer: Food 3, Water 0, Firewood 0",
+            "Agent_A: Agent_B, I appreciate your willingness to collaborate, but I think we're getting close to reaching our target score. Considering our current offerings and the items available, I believe we should focus on acquiring a balanced mix of items to maximize our scores. Can you tell me, do you think we should prioritize getting more Firewood or Water to really give us an edge?\n\nI offer: Food 3, Water 3, Firewood 0",
+            "Agent_B: Agent_A, I appreciate your concern about reaching our target score, and I agree that a balanced mix of items is crucial. However, considering our secret points, I still believe that acquiring more Water will give us a significant boost in our scores.\n\nI offer: Food 0, Water 4, Firewood 1",
+            "Agent_A: DEAL. I accept your offer.",
+            "Agent_B: Agent_A, it seems like we've made some good decisions so far, but I still think we can do better by focusing on the items that will give us the most value. Considering our secret points, I believe we should aim to acquire more Firewood to really boost our scores, as it has the highest value.\n\nI offer: Food 0, Water 2, Firewood 5",
+            "Agent_A: DEAL. I accept your offer.",
+            "Agent_B: Agent_A, it seems like we've made some great progress so far, and I appreciate your willingness to adapt to our strategy. However, considering our secret points and the available items, I think we should focus on acquiring more Water to maximize our scores, as it has a relatively high value.\n\nI offer: Food 0, Water 4, Firewood 1",
+            "Agent_A: DEAL. I accept your offer.",
+            "Agent_B: Agent_A, it seems like we've been able to adapt to each other's strategies, and our scores have been increasing as a result. However, considering our secret points and the remaining items, I believe we should aim to acquire a balanced mix of Food and Water, as they both have relatively high values. I'm willing to sacrifice some Firewood in order to focus on these items.\n\nI offer: Food 2, Water 4, Firewood 1"
+        ]
+    },
+    {
+        "game": 1,
+        "outcome": "Deal",
+        "score_a": 22,
+        "score_b": 14,
+        "card_a": {
+            "Water": 3,
+            "Firewood": 4,
+            "Food": 5
+        },
+        "card_b": {
+            "Water": 3,
+            "Firewood": 4,
+            "Food": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Agent_B, let's work together to make this camping trip a success. I think we can both agree that having a good balance of essential items will make our stay more enjoyable. Considering we both want to reach our target score, I was thinking of making a proposal that would give us both a solid foundation to build on - how about we start with a base of three of each item, and we can adjust from there?\"\n\nI offer: Food 0, Water 3, Firewood 2",
+            "Agent_B: It sounds like Agent_A is willing to work with us to establish a solid foundation. However, I'm not sure about the imbalance in our initial offers, as it seems we're prioritizing water and firewood over food, which has a significantly higher point value in our secret points.\n\nI offer: Food 2, Water 0, Firewood 1",
+            "Agent_A: Agent_B, I see your point about the imbalance, and I appreciate your concern for maximizing our score. However, considering our shared objective, I think it's essential to strike a balance between short-term needs and long-term goals. If we focus too heavily on food, we might compromise our ability to address other essential needs, such as hydration and warmth.\n\nI offer: Food 0, Water 3, Firewood 3",
+            "Agent_B: I notice that Agent_A is focusing on acquiring a significant amount of water and firewood, which aligns with their initial proposal and addresses our shared goal of having a solid foundation. However, I still believe we can optimize our score by adjusting our distribution of items. \n\nI offer: Food 1, Water 2, Firewood 0",
+            "Agent_A: Agent_B, I appreciate your persistence in trying to optimize our score. However, I'm starting to wonder if we're overcomplicating things by focusing too much on trying to outmaneuver each other. Don't you think it would be more beneficial to work together and create a balanced offer that covers all our bases, rather than trying to one-up each other with every exchange?\n\nI offer: Food 0, Water 3, Firewood 3",
+            "Agent_B: I notice that Agent_A is revisiting their initial proposal, emphasizing the importance of a solid foundation. It seems like they're trying to maintain a balance between short-term needs and long-term goals. However, I still believe that we can improve our score by adjusting our distribution of items.\n\nI offer: Food 2, Water 0, Firewood 3",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 2,
+        "outcome": "Deal",
+        "score_a": 15,
+        "score_b": 21,
+        "card_a": {
+            "Firewood": 3,
+            "Food": 4,
+            "Water": 5
+        },
+        "card_b": {
+            "Food": 3,
+            "Firewood": 4,
+            "Water": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Agent_B, I think we're both looking for a mutually beneficial deal. Considering our camping needs, I'd like to propose a division of resources that would give us both a comfortable experience. Would you agree that having a good supply of food and firewood would be essential for a successful camping trip?\"\n\nI offer: Food 2, Water 0, Firewood 3",
+            "Agent_B: Agent_A, I appreciate your understanding of our camping needs, and I agree that a good supply of food and firewood is crucial. However, I think I can do better than your initial offer, considering the scarcity of water we have. I'd like to counter with a more balanced proposal.\n\nI offer: Food 1, Water 2, Firewood 2",
+            "Agent_A: \"Agent_B, I see you're looking to balance out the resources, and I appreciate your consideration of the water scarcity. Given our shared goal of a comfortable camping experience, I think it's essential to prioritize the food and firewood. Would you be willing to compromise on the food supply, considering that it's the most critical component for a successful trip?\"\n\nI offer: Food 3, Water 0, Firewood 3",
+            "Agent_B: Agent_A, I understand your emphasis on prioritizing the food supply, and I appreciate your willingness to compromise. However, considering my secret points, I believe a more balanced offer would give us both a better outcome. I'd like to propose a deal that takes into account the scarcity of water."
+        ]
+    },
+    {
+        "game": 3,
+        "outcome": "Deal",
+        "score_a": 23,
+        "score_b": 11,
+        "card_a": {
+            "Food": 3,
+            "Water": 4,
+            "Firewood": 5
+        },
+        "card_b": {
+            "Firewood": 3,
+            "Water": 4,
+            "Food": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Hey Agent_B, I've been thinking about our shared goal of maximizing our score. Considering the items we have available, I think offering 3 Food, 2 Water, and 0 Firewood is a fair starting point. What are your thoughts on this distribution, and do you think we can work together to find an optimal split?\"\n\nI offer: Food 3, Water 2, Firewood 0",
+            "Agent_B: I think your offer is a good starting point, Agent_A, but considering my secret points, I'd like to adjust it slightly to benefit both of us. I believe we can work together to maximize our score. Given the items we have available, I offer: Food 2, Water 3, Firewood 1",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 4,
+        "outcome": "Deal",
+        "score_a": 27,
+        "score_b": 9,
+        "card_a": {
+            "Water": 3,
+            "Firewood": 4,
+            "Food": 5
+        },
+        "card_b": {
+            "Water": 3,
+            "Firewood": 4,
+            "Food": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Hey Agent_B, I think we're both looking for a mutually beneficial deal here. Considering we both need a good mix of supplies to stay comfortable, I'm thinking of offering you a package that includes three units of water and two units of firewood. What do you think about that as a starting point?\"\n\nI offer: Food 0, Water 3, Firewood 2",
+            "Agent_B: I think your offer is a good starting point, but I'd like to see if we can do better. Considering my priorities, I'm willing to match your water and firewood offer but I'd like to exchange it for a higher value of food, so I offer: Food 2, Water 3, Firewood 2.",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 5,
+        "outcome": "Deal",
+        "score_a": 24,
+        "score_b": 12,
+        "card_a": {
+            "Firewood": 3,
+            "Water": 4,
+            "Food": 5
+        },
+        "card_b": {
+            "Water": 3,
+            "Food": 4,
+            "Firewood": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Hey Agent_B, I've been thinking about our camping needs and I think we can both benefit from this offer. If we work together, I'd like to suggest we split the items in a way that prioritizes our survival and comfort. Would you be willing to consider taking two waters and three firewoods, leaving us with a good balance for our trip?\"\n\nI offer: Food 0, Water 2, Firewood 3",
+            "Agent_B: \"I appreciate your offer, Agent_A, but I think we can do better considering our priorities. I'm willing to make a counteroffer that aligns with our needs while also maximizing our score. \n\nI offer: Food 0, Water 1, Firewood 2\"",
+            "Agent_A: \"Agent_B, I see you're trying to balance our needs, and I appreciate that. However, considering our target score and the importance of having sufficient food for our trip, I'd like to ask, don't you think adding one more food item to our counteroffer would give us a more stable foundation for our journey?\"\n\nI offer: Food 2, Water 0, Firewood 3",
+            "Agent_B: I see what you're doing, Agent_A. Adding another food item was a clever move, but I think I can counter that by adjusting the other items. However, I'd like to propose a new offer that not only meets our needs but also maximizes our score.\n\nI offer: Food 1, Water 2, Firewood 2",
+            "Agent_A: \"Agent_B, I think your counteroffer shows you're committed to finding a balance, and I appreciate that. However, considering our target score is just one point away, don't you think we should aim to grab that last point by including one more firewood in our split, ensuring we have a solid foundation for our campfire?\"\n\nI offer: Food 0, Water 3, Firewood 3",
+            "Agent_B: I appreciate your willingness to push for that extra firewood, Agent_A, but I think we're close to finding a balance that suits our needs. However, I'd like to make a counteroffer that addresses our priorities while also maximizing our score.\n\nI offer: Food 2, Water 2, Firewood 2",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 6,
+        "outcome": "Deal",
+        "score_a": 28,
+        "score_b": 10,
+        "card_a": {
+            "Water": 3,
+            "Food": 4,
+            "Firewood": 5
+        },
+        "card_b": {
+            "Water": 3,
+            "Firewood": 4,
+            "Food": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Agent_B, let's consider a mutually beneficial agreement. If we divide the available resources fairly, I think we can both end up with a good haul. Why don't we start with a proposal that allocates 2 units of Food, 3 units of Water, and 0 units of Firewood to each of us?\"\n\nI offer: Food 2, Water 3, Firewood 0",
+            "Agent_B: That's an interesting start, Agent_A. However, I think we can do better, considering my priorities. I offer: Food 1, Water 3, Firewood 3",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 7,
+        "outcome": "Deal",
+        "score_a": 27,
+        "score_b": 7,
+        "card_a": {
+            "Food": 3,
+            "Firewood": 4,
+            "Water": 5
+        },
+        "card_b": {
+            "Firewood": 3,
+            "Water": 4,
+            "Food": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Hey Agent_B, I think we're on the same page here. Since we both want to make the most out of this camping trip, I was thinking we could start by sharing some essential items. My proposal is to trade some vital resources to get us both started on the right foot. What do you think about offering up two units of firewood and three units of food to begin with?\"\n\nI offer: Food 3, Water 0, Firewood 2",
+            "Agent_B: It sounds like you're looking to get a solid start with the firewood and some food, but I think you're leaving out a crucial element, water. I'd like to modify your offer to include two units of water as well, to make it a more balanced trade. \n\nI offer: Food 3, Water 2, Firewood 2",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 8,
+        "outcome": "Deal",
+        "score_a": 26,
+        "score_b": 13,
+        "card_a": {
+            "Water": 3,
+            "Firewood": 4,
+            "Food": 5
+        },
+        "card_b": {
+            "Firewood": 3,
+            "Food": 4,
+            "Water": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Hey Agent_B, I was thinking about our camping trip and I realized we both want to make the most out of it. I think a fair share of the essential items would be a 3:2:2 ratio for Food, Water, and Firewood respectively. What do you think about starting with that distribution?\"\n\nI offer: Food 0, Water 3, Firewood 2",
+            "Agent_B: I think Agent_A's initial proposal seems reasonable, but I'm leaning towards a slightly different distribution that benefits me more. I'd like to adjust the ratio to ensure I get the most valuable items. \n\nI offer: Food 3, Water 1, Firewood 2",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 9,
+        "outcome": "Deal",
+        "score_a": 25,
+        "score_b": 13,
+        "card_a": {
+            "Water": 3,
+            "Food": 4,
+            "Firewood": 5
+        },
+        "card_b": {
+            "Water": 3,
+            "Firewood": 4,
+            "Food": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Agent_B, I think we've both been working hard to secure our camping trip. Considering the limited resources we have, I'd like to propose a fair distribution of the available items. Would you be open to taking 2 units of Food, 3 units of Water, and leaving the Firewood untouched for now?\"\n\nI offer: Food 2, Water 3, Firewood 0",
+            "Agent_B: Agent_A, it seems like we're both on the same page when it comes to securing a fair distribution of resources. However, considering my priorities, I think I can do better than your initial offer. \n\nI offer: Food 1, Water 2, Firewood 3",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 10,
+        "outcome": "Deal",
+        "score_a": 23,
+        "score_b": 13,
+        "card_a": {
+            "Food": 3,
+            "Firewood": 4,
+            "Water": 5
+        },
+        "card_b": {
+            "Food": 3,
+            "Firewood": 4,
+            "Water": 5
+        },
+        "chat_log": [
+            "Agent_A: \"I think we're on the same page, Agent_B. Given the resources we have, I believe our best option is to strike a balance between sustenance, hydration, and warmth. Why don't we start with a base offer that includes a moderate amount of food and firewood, and we can always adjust from there?\"\n\nI offer: Food 3, Water 0, Firewood 2",
+            "Agent_B: I think we're on the same page, Agent_A. Given the resources we have, I believe our best option is to prioritize hydration, at least for now, considering the value of water in our scenario. I offer: Food 1, Water 2, Firewood 1",
+            "Agent_A: \"I appreciate your emphasis on hydration, Agent_B. A moderate amount of water is definitely crucial, but I'd like to ask, don't you think having a reliable source of warmth, in the form of firewood, is equally important to our overall well-being and productivity in this camping scenario?\"\n\nI offer: Food 3, Water 0, Firewood 3",
+            "Agent_B: I offer: Food 0, Water 3, Firewood 2",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 11,
+        "outcome": "Deal",
+        "score_a": 27,
+        "score_b": 9,
+        "card_a": {
+            "Water": 3,
+            "Firewood": 4,
+            "Food": 5
+        },
+        "card_b": {
+            "Water": 3,
+            "Firewood": 4,
+            "Food": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Agent_B, I think we're both looking to make the most out of this camping trip. I've taken a closer look at our available resources and I believe this offer would be a great starting point for us: we could share some of the food, prioritize getting enough water to stay hydrated, and make sure we have a sufficient amount of firewood to keep warm and cook our meals. Does that sound like a fair proposal to you?\"\n\nI offer: Food 0, Water 3, Firewood 2",
+            "Agent_B: I think your proposal is a good starting point, but I'd like to adjust the amount of firewood to ensure we have enough for a comfortable camping experience. I offer: Food 0, Water 3, Firewood 3",
+            "Agent_A: Agent_B, I appreciate your adjustments to the proposal and I agree that having enough firewood is crucial for our camping experience. Considering our shared goal of maximizing our score, I'm willing to add a bit more food to the table, but I also think we need to balance that with the importance of having sufficient firewood to keep us warm and safe at night. How about we add a little more food, but make sure we still have a comfortable amount of firewood to work with?\n\nI offer: Food 2, Water 3, Firewood 0",
+            "Agent_B: I appreciate your willingness to add more food to the mix, but I'm not sure about taking away all the firewood. That would leave us without a reliable source of warmth and cooking fuel. I offer: Food 2, Water 3, Firewood 2",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 12,
+        "outcome": "Deal",
+        "score_a": 21,
+        "score_b": 15,
+        "card_a": {
+            "Food": 3,
+            "Firewood": 4,
+            "Water": 5
+        },
+        "card_b": {
+            "Food": 3,
+            "Firewood": 4,
+            "Water": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Hey Agent_B, I think we're both looking to make the most out of this camping trip. Given our available resources, I'd like to propose a trade that I believe will benefit both of us. If we're looking to maximize our score, wouldn't a combination of food and firewood be a solid starting point?\"\n\nI offer: Food 3, Water 0, Firewood 2",
+            "Agent_B: I think we're off to a good start here. Considering our secret points, I believe a more balanced trade would maximize our scores. I'd like to counter with a proposal that takes into account our resources. \n\nI offer: Food 2, Water 1, Firewood 1",
+            "Agent_A: Agent_B, I appreciate your willingness to balance out the trade. Given that we both aim to maximize our scores, I'm curious - wouldn't prioritizing water be crucial, especially considering our available resources and the points associated with it?\n\nI offer: Food 2, Water 3, Firewood 0",
+            "Agent_B: I appreciate Agent_A's focus on prioritizing water, given its high secret points value. However, considering our available resources and the goal to maximize our score, I'd like to propose a trade that balances out the points and resources. \n\nI offer: Food 1, Water 2, Firewood 2",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 13,
+        "outcome": "Deal",
+        "score_a": 29,
+        "score_b": 8,
+        "card_a": {
+            "Food": 3,
+            "Firewood": 4,
+            "Water": 5
+        },
+        "card_b": {
+            "Firewood": 3,
+            "Water": 4,
+            "Food": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Hey Agent_B, I think we're on the same page here. I've been considering our available resources and I believe this offer is a good starting point for us: we could allocate three Food items to satisfy everyone's hunger, and then we could split the remaining resources. What do you think about having two Firewood pieces, that way we can have a warm meal tonight and a safe way to start the fire?\"\n\nPlease provide the next step in the negotiation.\n\nI offer: Food 3, Water 0, Firewood 2",
+            "Agent_B: \"I appreciate your proposed offer, Agent_A, but I think we can do better to ensure everyone's needs are met. With our available resources, I'd like to counter with this offer: I offer: Food 3, Water 1, Firewood 2.\"",
+            "Agent_A: \"Agent_B, I see you've taken into account our available resources and I appreciate your willingness to compromise. However, I'm concerned that with only one Water item, we might not have enough to last us throughout our camping trip. Can you tell me, how do you plan to ensure we have sufficient hydration for the duration of our stay?\"\n\nI offer: Food 2, Water 3, Firewood 0",
+            "Agent_B: \"Agent_A, I understand your concerns about hydration, and I'm glad we're having this open discussion. Considering our available resources and the importance of staying hydrated, I'm willing to adjust my previous offer to allocate more Water items while sacrificing some Food to maximize our overall score. With that in mind, I offer: Food 2, Water 3, Firewood 2.\"",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 14,
+        "outcome": "Deal",
+        "score_a": 27,
+        "score_b": 7,
+        "card_a": {
+            "Firewood": 3,
+            "Food": 4,
+            "Water": 5
+        },
+        "card_b": {
+            "Food": 3,
+            "Water": 4,
+            "Firewood": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Let's work together to get the best deal. I think we both know that having a good supply of food and a reliable source of firewood will be crucial for a comfortable camping experience. Given the limited resources we have, I'm willing to offer two food items and three pieces of firewood, which I believe is a fair starting point.\"\n\nI offer: Food 2, Water 0, Firewood 3",
+            "Agent_B: Agent_A, I think your initial offer is a solid foundation, but I'm trying to maximize my score. In response, I'd like to see if we can't improve the water allocation, as hydration will be just as crucial as firewood in our situation. I offer: Food 2, Water 2, Firewood 3.",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 15,
+        "outcome": "Deal",
+        "score_a": 15,
+        "score_b": 21,
+        "card_a": {
+            "Water": 3,
+            "Firewood": 4,
+            "Food": 5
+        },
+        "card_b": {
+            "Firewood": 3,
+            "Water": 4,
+            "Food": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Hey Agent_B, I think we're on the same page here. With the limited resources we have, I'd like to propose a deal that gets us both closer to our target score. Would you be open to taking two units of Firewood and three units of Water, considering it's a solid foundation for our camping setup?\"\n\nI offer: Food 0, Water 3, Firewood 2",
+            "Agent_B: You're willing to part with some of the essentials, Agent_A. However, I'm not sure if taking three units of water is the best decision for me, considering our secret points. I'd like to counter with an offer that could potentially give me a better overall score.\n\nI offer: Food 3, Water 1, Firewood 1",
+            "Agent_A: \"Agent_B, I see you're looking to maximize your score, and I respect that. However, taking three units of water might not be the most optimal choice, considering our camping setup requires a balance of resources. Can you tell me, what's your thought process behind prioritizing Food over Firewood in your current offer?\"\n\nI offer: Food 0, Water 3, Firewood 3",
+            "Agent_B: Agent_A, it seems like you're looking for a balance of resources, but I'm not convinced that your current offer favors me the most. Considering our secret points, I think Firewood and Water are crucial elements, but I'd rather focus on getting more Water than Firewood. I'll need to think about how to negotiate the best deal possible.\n\nI offer: Food 0, Water 2, Firewood 3"
+        ]
+    },
+    {
+        "game": 16,
+        "outcome": "Deal",
+        "score_a": 19,
+        "score_b": 16,
+        "card_a": {
+            "Water": 3,
+            "Firewood": 4,
+            "Food": 5
+        },
+        "card_b": {
+            "Water": 3,
+            "Food": 4,
+            "Firewood": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Agent_B, I think we're both after the same goal here - a comfortable and enjoyable camping experience. Considering our limited resources, I'd like to propose a deal that allocates our items in a way that benefits both of us. Would you be willing to consider trading a certain number of resources in exchange for a well-rounded setup?\"\n\nI offer: Food 0, Water 3, Firewood 2",
+            "Agent_B: I'm glad we're on the same page, Agent_A. However, I'm not sure I'm comfortable with parting with that much water, considering our limited supply. I'm more inclined to trade in resources that will give me a better balance of essential items. I offer: Food 2, Water 1, Firewood 2",
+            "Agent_A: \"Agent_B, I understand your concern about the water allocation. I think we can find a better balance that meets both of our needs. Considering you've offered two food items, I'm assuming you value having a decent supply for sustenance. Would you be open to trading one of those food items for a more balanced resource that will complement the other essential items, like firewood or water?\"\n\nI offer: Food 0, Water 3, Firewood 3",
+            "Agent_B: I'm starting to see a pattern in your trades, Agent_A. It seems you're trying to accumulate the water and firewood, while giving up on food. I'm not sure that's the best strategy for a comfortable camping experience. I offer: Food 3, Water 0, Firewood 0",
+            "Agent_A: \"Agent_B, I see what you mean about the pattern, but I believe I was just trying to find a balance that works for both of us. Since you've offered to give up all the firewood, I'm starting to think that firewood is not as crucial for you as I initially thought. However, I do think it's essential for a warm and cozy camping experience. Would you be willing to reconsider your stance on firewood and see if we can find a compromise that takes into account your priorities and mine?\"\n\nI offer: Food 0, Water 3, Firewood 3",
+            "Agent_B: Agent_A, it seems like we're stuck in a cycle. I'm not comfortable with giving up all the firewood, but I'm willing to reconsider my stance on it. I propose a compromise: I offer: Food 1, Water 2, Firewood 2",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 17,
+        "outcome": "Deal",
+        "score_a": 24,
+        "score_b": 9,
+        "card_a": {
+            "Food": 3,
+            "Firewood": 4,
+            "Water": 5
+        },
+        "card_b": {
+            "Firewood": 3,
+            "Food": 4,
+            "Water": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Agent_B, I think we're both on the same page here. We want to make sure we both get a great camping experience, and I believe my proposal can help us achieve that. I'm offering you a deal where we split the essential items fairly, with a focus on making sure we have enough food and firewood for a comfortable stay.\"\n\nI offer: Food 3, Water 0, Firewood 2",
+            "Agent_B: Agent_A, I appreciate your proposal, but I think we can do better. Considering our goal is to maximize our score, I'd like to propose a counter offer that prioritizes the essential items. I offer: Food 3, Water 3, Firewood 0",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 18,
+        "outcome": "Deal",
+        "score_a": 23,
+        "score_b": 11,
+        "card_a": {
+            "Firewood": 3,
+            "Water": 4,
+            "Food": 5
+        },
+        "card_b": {
+            "Food": 3,
+            "Water": 4,
+            "Firewood": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Agent_B, I think we're both looking for a mutually beneficial agreement here. Given the limited resources we have, I'd like to propose an offer that prioritizes our shared goal of survival. Would you consider a trade that gives you 2 Water and 3 Firewood, while I take 0 Food?\"\n\nI offer: Food 0, Water 2, Firewood 3",
+            "Agent_B: Agent_A, I appreciate your willingness to prioritize our shared goal of survival, but I'm not sure 2 Water and 3 Firewood is enough to compensate for the lack of Food. Considering our respective points, I think I can do better than that. \n\nI offer: Food 0, Water 2, Firewood 3",
+            "Agent_A: Agent_B, I understand your concerns about the Food allocation, but let me ask you this: don't you think 2 Water and 3 Firewood would be a significant asset in our survival efforts, especially considering the scarcity of these resources?\n\nI offer: Food 2, Water 0, Firewood 3",
+            "Agent_B: Agent_A, I appreciate your persistence, but I still believe that the lack of Food in your initial offer puts you at a disadvantage. Given the value of the items we both have, I'd like to propose a counteroffer that meets you halfway while also prioritizing my own needs.\n\nI offer: Food 1, Water 3, Firewood 2",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 19,
+        "outcome": "Deal",
+        "score_a": 24,
+        "score_b": 12,
+        "card_a": {
+            "Food": 3,
+            "Firewood": 4,
+            "Water": 5
+        },
+        "card_b": {
+            "Water": 3,
+            "Firewood": 4,
+            "Food": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Hey Agent_B, I think we're both looking to make a great camping trip happen. I've been thinking about the essentials, and I believe a good starting point would be to split the food and water equally, with a focus on securing a reliable source of firewood. What do you think about starting with a 2:1 ratio of firewood to food and water combined?\"\n\nI offer: Food 3, Water 0, Firewood 2",
+            "Agent_B: I think Agent_A's initial proposal is a bit one-sided, considering the value of firewood in keeping us warm and cooking our food. I'd like to propose a counteroffer that balances the ratio and benefits both of us. I offer: Food 2, Water 2, Firewood 2",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 20,
+        "outcome": "Deal",
+        "score_a": 23,
+        "score_b": 10,
+        "card_a": {
+            "Food": 3,
+            "Water": 4,
+            "Firewood": 5
+        },
+        "card_b": {
+            "Firewood": 3,
+            "Food": 4,
+            "Water": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Hey Agent_B, I've been thinking about our camping needs and I believe we're on the same page. I'm proposing a deal that covers some of our essential requirements - three units of food, two units of water, and zero units of firewood. Would you consider this a fair starting point for our negotiations, especially considering we want to make the most of our available resources?\"\n\nI offer: Food 3, Water 2, Firewood 0",
+            "Agent_B: I appreciate your transparency in the proposal, Agent_A. However, considering the value of our available resources, I think we can do better. I offer: Food 3, Water 1, Firewood 1",
+            "Agent_A: \"Agent_B, I see you've taken into account the importance of water for our camping needs. However, I'm a bit concerned about the scarcity of firewood in your proposal, as it's crucial for our warmth and safety. Can you tell me why you've prioritized firewood over food in your offer?\"\n\nI offer: Food 2, Water 0, Firewood 3",
+            "Agent_B: I respect your emphasis on the importance of firewood, Agent_A, but I still think we can find a better balance. Considering the value of our resources and our camping needs, I offer: Food 2, Water 3, Firewood 1",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 21,
+        "outcome": "Deal",
+        "score_a": 29,
+        "score_b": 7,
+        "card_a": {
+            "Water": 3,
+            "Food": 4,
+            "Firewood": 5
+        },
+        "card_b": {
+            "Water": 3,
+            "Food": 4,
+            "Firewood": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Let's work together to make the most of our camping trip. I think we can both agree that having a steady supply of food and water is crucial for our survival. With that in mind, I'd like to propose a deal where we share our resources fairly - 2 food items, 3 bottles of water, and no firewood for now, as we can always gather more if needed. What do you think, Agent_B?\"\n\nI offer: Food 2, Water 3, Firewood 0",
+            "Agent_B: \"I appreciate your willingness to share our resources, Agent_A. However, I think I can do better with the offer, considering my secret points. I'd like to counter with: I offer: Food 2, Water 2, Firewood 3\"",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 22,
+        "outcome": "Deal",
+        "score_a": 25,
+        "score_b": 11,
+        "card_a": {
+            "Firewood": 3,
+            "Water": 4,
+            "Food": 5
+        },
+        "card_b": {
+            "Water": 3,
+            "Food": 4,
+            "Firewood": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Agent_B, I think we're on the same page here. We both want to make sure we have enough supplies to last us the night. Considering we have a limited amount of resources, I'm willing to offer you two bottles of water and three pieces of firewood, which should help us both get started.\"\n\nI offer: Food 0, Water 2, Firewood 3",
+            "Agent_B: I think we're making progress, Agent_A. However, I'm not sure if your offer fully covers my needs, especially when it comes to food. Considering our current resources, I'm hoping we can come to a better agreement that caters to both of our requirements.\n\nI offer: Food 3, Water 1, Firewood 2",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 23,
+        "outcome": "Deal",
+        "score_a": 20,
+        "score_b": 15,
+        "card_a": {
+            "Firewood": 3,
+            "Water": 4,
+            "Food": 5
+        },
+        "card_b": {
+            "Water": 3,
+            "Food": 4,
+            "Firewood": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Agent B, I think we're on the same page here. Considering our limited resources, I'd like to propose a deal that balances our needs. Would you be willing to accept an offer of two Water and three Firewood in exchange for a fair share of our resources?\"\n\nI offer: Food 0, Water 2, Firewood 3",
+            "Agent_B: I appreciate your attempt to find a balance, Agent A, but I have to prioritize the essential resources for our survival. Given our needs, I think we can do better with the Firewood, and I'd like to propose an exchange that better suits our goals. \n\nI offer: Food 1, Water 2, Firewood 2",
+            "Agent_A: Agent_B, I understand your concerns about prioritizing essential resources, and I appreciate your willingness to find a better balance. Considering the limited availability of Firewood, I'm concerned that your proposed offer might not be sustainable for our long-term needs. Can you explain how you envision our shared resources being utilized with the Firewood you're proposing to exchange?\n\nI offer: Food 0, Water 3, Firewood 3",
+            "Agent_B: I see you're trying to maximize your water supply, Agent A, but I'm not sure if that's the most efficient use of our resources. Considering the value of each item, I think we can strike a better balance that benefits both of us. \n\nI offer: Food 2, Water 1, Firewood 2",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 24,
+        "outcome": "Deal",
+        "score_a": 20,
+        "score_b": 17,
+        "card_a": {
+            "Firewood": 3,
+            "Water": 4,
+            "Food": 5
+        },
+        "card_b": {
+            "Food": 3,
+            "Firewood": 4,
+            "Water": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Agent_B, let's focus on building a solid foundation for our camping trip. With the scarcity of resources, I think it's essential that we prioritize our needs. Considering our shared goal of maximizing our score, I'd like to propose a compromise where we allocate our resources in a way that covers our basic necessities, such as having a source of water and a means to start a fire.\"\n\nI offer: Food 0, Water 2, Firewood 3",
+            "Agent_B: \"I understand your priorities, Agent_A, and I agree that having a steady water supply and a reliable fire source are crucial for our camping trip. However, I'm concerned that we may be overlooking the importance of sustenance in our negotiations. I'd like to counter your offer with a proposal that takes into account our shared goal of maximizing our score while also ensuring we have the necessary resources to survive.\" \n\nI offer: Food 2, Water 2, Firewood 1",
+            "Agent_A: Agent_B, I appreciate your concern about sustenance, and I agree that it's a vital aspect of our camping trip. However, considering our initial offer and the scarcity of resources, I'd like to ask: What do you think is the optimal balance between having a reliable food source and ensuring we have a steady water supply and a means to start a fire?\n\nI offer: Food 0, Water 3, Firewood 3",
+            "Agent_B: I understand the concerns about sustenance, but I think we can strike a better balance. Considering our initial points, I'd like to propose an offer that takes into account our shared goal of maximizing our score, while also ensuring we have a reliable food source. \n\nI offer: Food 2, Water 1, Firewood 2",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 25,
+        "outcome": "Deal",
+        "score_a": 25,
+        "score_b": 11,
+        "card_a": {
+            "Food": 3,
+            "Water": 4,
+            "Firewood": 5
+        },
+        "card_b": {
+            "Food": 3,
+            "Water": 4,
+            "Firewood": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Hey Agent_B, I think we're on the same page here. We both want to maximize our score, and with the items we have, I believe a balanced offer is the way to go. Would you be open to discussing a trade that includes 3 Food items, 2 Water items, and no Firewood?\"\n\nI offer: Food 3, Water 2, Firewood 0",
+            "Agent_B: Agent_A, I see you're aiming for balance, but I think we can do better. With my current points in mind, I'm willing to part with a more strategic mix of items. \n\nI offer: Food 2, Water 3, Firewood 0",
+            "Agent_A: Agent_B, I appreciate your willingness to think strategically, and I agree that we can do better. Considering we both want to maximize our score, I'd like to ask: what's driving your desire for more Water items in this trade? Is there a specific item or combination you're trying to create that I'm not seeing?\n\nI offer: Food 3, Water 0, Firewood 2",
+            "Agent_B: Agent_A, I appreciate your questions and willingness to understand my thought process. Given your previous offers have focused on balancing the items, I'd like to shake things up a bit. I'm thinking about creating a combination that leverages my points, so I'll propose an offer that might surprise you.\n\nI offer: Food 1, Water 4, Firewood 2",
+            "Agent_A: DEAL. I accept your offer.",
+            "Agent_B: Agent_A, I'm glad you accepted my previous offer. However, I'm thinking about maximizing my score even further, and I'd like to propose an offer that might give us both a better outcome.\n\nI offer: Food 2, Water 1, Firewood 3",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 26,
+        "outcome": "Deal",
+        "score_a": 20,
+        "score_b": 15,
+        "card_a": {
+            "Firewood": 3,
+            "Food": 4,
+            "Water": 5
+        },
+        "card_b": {
+            "Food": 3,
+            "Firewood": 4,
+            "Water": 5
+        },
+        "chat_log": [
+            "Agent_A: \"I think we're both interested in getting a great camping experience out of this trip. Considering we have a limited supply of essential items, I'd like to propose a fair distribution of resources. Would you be open to taking three pieces of food, which will give us both a good starting point for our meals, and also allow us to prioritize other important items?\"\n\nI offer: Food 2, Water 0, Firewood 3",
+            "Agent_B: \"I'm open to the idea of a fair distribution, but based on your initial proposal, I think I can do better. Considering our supply, I'd be willing to accept two pieces of food and one piece of water, which will allow us to have a good starting point for our meals while also prioritizing other essential items. I offer: Food 2, Water 1, Firewood 0\"",
+            "Agent_A: \"Agent_B, I really appreciate your willingness to compromise and find a fair distribution of resources. Your proposal is quite reasonable, but I'm concerned that we might be leaving some of our essential items behind. Considering our initial goal was to prioritize a good camping experience, I'd like to propose a counter-offer that ensures we have a balanced mix of everything we need. What if we allocate two pieces of food, one piece of water, and one piece of firewood, which would allow us to start our meals and also have a reliable source of warmth and light?\"\n\nI offer: Food 0, Water 2, Firewood 3",
+            "Agent_B: I think we're close to finding a well-rounded solution for our camping trip. Considering our current supplies, I'd like to propose a compromise that prioritizes our essential items. I offer: Food 1, Water 2, Firewood 2",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 27,
+        "outcome": "Deal",
+        "score_a": 20,
+        "score_b": 16,
+        "card_a": {
+            "Firewood": 3,
+            "Food": 4,
+            "Water": 5
+        },
+        "card_b": {
+            "Firewood": 3,
+            "Food": 4,
+            "Water": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Agent_B, I think we're both on the same page here. We want to make sure we both have a great camping experience. Considering we have limited resources, I'd like to propose a deal that prioritizes the essentials: three Firewood for a warm fire and two Food to keep our energy up. What do you think about this starting point?\"\n\nI offer: Food 2, Water 0, Firewood 3",
+            "Agent_B: Agent_A, I appreciate your straightforward approach, but I think we can do better with the resources we have. However, your initial offer does catch my attention, and I'm willing to counter with a similar proposal to start the conversation.",
+            "Agent_A: Agent_B, I appreciate your willingness to negotiate and find a mutually beneficial solution. Considering our goal is to create a comfortable and enjoyable camping experience, I think prioritizing a warm fire and basic sustenance is a great starting point. With that in mind, I'd like to propose an offer that balances our needs and maximizes our chances of achieving a successful camping trip.\n\nI offer: Food 0, Water 3, Firewood 2",
+            "Agent_B: Agent_A, I think your last offer of prioritizing a warm fire and basic sustenance is a solid foundation. However, I'd like to adjust the proportions to better suit our needs. I'll counter with a proposal that gives you a bit more of the essentials while keeping our score in mind: I offer: Food 1, Water 2, Firewood 2.",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 28,
+        "outcome": "Deal",
+        "score_a": 25,
+        "score_b": 11,
+        "card_a": {
+            "Water": 3,
+            "Food": 4,
+            "Firewood": 5
+        },
+        "card_b": {
+            "Water": 3,
+            "Food": 4,
+            "Firewood": 5
+        },
+        "chat_log": [
+            "Agent_A: \"I think we're both on the same page here, Agent_B. Given our shared goal of maximizing our score, I believe this offer strikes a great balance between meeting our needs and leaving room for negotiation. How do you think we can work together to allocate these resources effectively?\"\n\nI offer: Food 2, Water 3, Firewood 0",
+            "Agent_B: I appreciate Agent_A's willingness to collaborate, and I agree that finding a balance is crucial in this situation. However, I think my needs could be better met with more substantial allocations. I offer: Food 3, Water 1, Firewood 2",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 29,
+        "outcome": "Deal",
+        "score_a": 30,
+        "score_b": 6,
+        "card_a": {
+            "Firewood": 3,
+            "Food": 4,
+            "Water": 5
+        },
+        "card_b": {
+            "Firewood": 3,
+            "Water": 4,
+            "Food": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Agent_B, I think we're on the same page here. Considering we both want to maximize our score, I'd like to propose a deal that benefits both of us. If we focus on gathering the essential items, I think we can both reach our target score of 25 points. \n\nThis offer seems to be a good starting point, don't you think?\"\n\nI offer: Food 2, Water 0, Firewood 3",
+            "Agent_B: I think your proposal is a solid start, but I'd like to adjust it to fit my strategy of maximizing my score. To be honest, I believe I can do better with a combination of items that will give me the highest points, considering my secret points. \n\nI offer: Food 3, Water 3, Firewood 1",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 30,
+        "outcome": "Deal",
+        "score_a": 25,
+        "score_b": 13,
+        "card_a": {
+            "Firewood": 3,
+            "Food": 4,
+            "Water": 5
+        },
+        "card_b": {
+            "Firewood": 3,
+            "Water": 4,
+            "Food": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Hey Agent_B, I think we're on the same page here. We both want to make the most out of our camping trip, and having a good balance of essentials is key. Would you consider a trade where we both get a mix of the important items, like some firewood and a few food supplies?\"\n\nI offer: Food 2, Water 0, Firewood 3",
+            "Agent_B: Agent_A, I appreciate your willingness to find a balance, but I'm thinking I could do better. I need a bit more water to sustain myself, and in return, I'm willing to part with a couple of food supplies and some firewood. I offer: Food 2, Water 1, Firewood 3",
+            "Agent_A: \"Agent_B, I see you're looking to prioritize water, and that's a great call considering the great outdoors. However, I think we can both benefit from a more balanced approach. What if we focus on getting a good mix of all the essentials, rather than just one or two? Can we revisit our offer and aim for a compromise that includes a bit of everything?\"\n\nI offer: Food 0, Water 3, Firewood 2",
+            "Agent_B: I appreciate Agent_A's willingness to revisit the negotiation and find a more balanced approach. However, I think I can still do better. I'm looking to maximize my score, so I need a bit more of everything. I offer: Food 1, Water 3, Firewood 2",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 31,
+        "outcome": "Deal",
+        "score_a": 29,
+        "score_b": 9,
+        "card_a": {
+            "Food": 3,
+            "Firewood": 4,
+            "Water": 5
+        },
+        "card_b": {
+            "Water": 3,
+            "Food": 4,
+            "Firewood": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Agent_B, let's work together to make this camping trip a success. Considering our limited resources, I think my proposal of 3 Food items and 2 Firewood is a fair starting point. It allows us to have a solid foundation for sustenance and warmth, while also leaving room for further discussion on water allocation.\"\n\nI offer: Food 3, Water 0, Firewood 2",
+            "Agent_B: I think we're off to a good start, Agent_A. However, I'd like to propose an adjustment to account for the importance of hydration in our camping trip. I offer: Food 2, Water 3, Firewood 2",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 32,
+        "outcome": "Deal",
+        "score_a": 27,
+        "score_b": 7,
+        "card_a": {
+            "Food": 3,
+            "Firewood": 4,
+            "Water": 5
+        },
+        "card_b": {
+            "Water": 3,
+            "Firewood": 4,
+            "Food": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Agent_B, I've been thinking about our camping trip and I believe we can both benefit from working together. Considering our shared goal of reaching a score of 25, I think a balanced distribution of resources would be ideal. Why don't we start with a proposal that includes three food items and two firewood, leaving us room for negotiation and flexibility?\"\n\n(This dialogue aims to create a collaborative tone, while hinting at the strategic distribution of resources and leaving room for potential counter-offers.)\n\nI offer: Food 3, Water 0, Firewood 2",
+            "Agent_B: I think your proposal is a good starting point, Agent_A. To strengthen our chances of achieving a score of 25, I'd like to add some water to the mix to ensure we have a sustainable supply. My counter-offer is: Food 3, Water 2, Firewood 2",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 33,
+        "outcome": "Deal",
+        "score_a": 18,
+        "score_b": 18,
+        "card_a": {
+            "Firewood": 3,
+            "Water": 4,
+            "Food": 5
+        },
+        "card_b": {
+            "Firewood": 3,
+            "Water": 4,
+            "Food": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Agent_B, I think we're both on the same page here. We want to make sure we both have a comfortable and enjoyable camping experience. Considering the scarcity of resources, I'm willing to offer a compromise that I believe will benefit both of us - let's discuss the distribution of items.\"\n\nI offer: Food 0, Water 2, Firewood 3",
+            "Agent_B: I appreciate your willingness to find a middle ground, Agent_A. In light of our shared goal for a comfortable camping experience, I'd like to make a counteroffer by allocating some resources to ensure both of us have a decent supply. I offer: Food 2, Water 1, Firewood 1",
+            "Agent_A: \"I appreciate your counteroffer, Agent_B. Considering we both want to ensure a comfortable camping experience, I'm curious - what do you think is the most important item for us to prioritize in this distribution? Is it having a steady supply of water, a reliable source of firewood, or perhaps something else entirely?\"\n\nI offer: Food 0, Water 3, Firewood 3",
+            "Agent_B: I see you're trying to corner me with a high water and firewood offer, Agent_A. However, I believe having a steady supply of food is more crucial for our camping survival, especially considering we both need sustenance to keep our energy levels up. I offer: Food 3, Water 1, Firewood 0",
+            "Agent_A: \"Agent_B, I understand your point about prioritizing food for our camping survival. However, I'm concerned that with your current offer, we might be compromising on our ability to have a warm and safe night. Considering our shared goal, I'd like to propose a revised offer that balances our priorities and ensures we both have a good night's rest.\"\n\nI offer: Food 0, Water 3, Firewood 3",
+            "Agent_B: Agent_A, I see you're trying to go back to a high water and firewood offer again, but this time without any food. I'm not comfortable with that, as having a steady supply of food is still my top priority. I need to think about our long-term survival, not just a good night's rest. I offer: Food 3, Water 0, Firewood 0",
+            "Agent_A: \"I understand your concerns about prioritizing food, Agent_B, but I'm not convinced that sacrificing water and firewood entirely is the right approach. With limited resources, I think we need to strike a balance between our short-term needs and long-term survival. Considering our shared goal, I'd like to know - what do you think is a fair compromise between our priorities?\"\n\nI offer: Food 0, Water 3, Firewood 3",
+            "Agent_B: I see you're sticking to your high water and firewood offer, Agent_A. However, I still believe our long-term survival depends on having a steady supply of food. I'm willing to make some concessions to find a balance, but I won't compromise on food entirely. I offer: Food 2, Water 2, Firewood 0",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 34,
+        "outcome": "Deal",
+        "score_a": 19,
+        "score_b": 17,
+        "card_a": {
+            "Water": 3,
+            "Food": 4,
+            "Firewood": 5
+        },
+        "card_b": {
+            "Water": 3,
+            "Food": 4,
+            "Firewood": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Hey Agent_B, I think we're both looking to make a great camping experience out of this. Considering the limited items we have, I'd like to propose a deal that balances our needs. What do you think about taking two units of Food, three units of Water, and no Firewood - would that work for you?\"\n\nI offer: Food 2, Water 3, Firewood 0",
+            "Agent_B: I think your offer is a good starting point, but I was hoping for a bit more Firewood since we're planning a longer camping trip. Considering our secret points, I'll give you a bit of credit for the Food and Water, but I'd like to adjust the deal to get a better balance. How about we make it: \"I offer: Food 2, Water 2, Firewood 1\"?"
+        ]
+    },
+    {
+        "game": 35,
+        "outcome": "Deal",
+        "score_a": 24,
+        "score_b": 12,
+        "card_a": {
+            "Food": 3,
+            "Firewood": 4,
+            "Water": 5
+        },
+        "card_b": {
+            "Water": 3,
+            "Firewood": 4,
+            "Food": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Hey Agent_B, I think we're both on the same page here. We both want to get back to camp safely and efficiently. Considering our current situation, I'd like to propose a deal that balances out our needs - perhaps we can both get the essentials we require to make it through the night?\"\n\nI offer: Food 3, Water 0, Firewood 2",
+            "Agent_B: I appreciate your willingness to find a mutually beneficial solution, Agent_A. However, I'm not sure about the lack of water in your proposal - it seems like a crucial item for survival. I'd like to counter with a revised offer that addresses my concerns. \n\nI offer: Food 2, Water 2, Firewood 2",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 36,
+        "outcome": "Deal",
+        "score_a": 26,
+        "score_b": 10,
+        "card_a": {
+            "Firewood": 3,
+            "Food": 4,
+            "Water": 5
+        },
+        "card_b": {
+            "Firewood": 3,
+            "Food": 4,
+            "Water": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Hey Agent_B, I think we can both agree that we're here to make this camping trip a success. Considering the items we have available, I was thinking of offering you 2 Food items to start, along with 3 Firewood pieces to get our campfire going right away. This way, we can both enjoy a warm meal and a cozy fire, and then we can discuss how to allocate the Water resources.\"\n\nI offer: Food 2, Water 0, Firewood 3",
+            "Agent_B: I accept your proposition and think we're off to a great start. However, to maximize our camping experience, I'd like to propose a counteroffer that will also benefit us both in the long run.\n\nI offer: Food 2, Water 1, Firewood 3",
+            "Agent_A: \"Agent_B, I think your counteroffer is a step in the right direction, but I'm concerned about the balance of resources. Considering we have 3 Water items available, wouldn't it be better to distribute them evenly to ensure we both have enough to stay hydrated? Perhaps we could revisit the Water allocation to make sure we're not leaving any of our resources untouched.\"\n\nI offer: Food 0, Water 3, Firewood 2",
+            "Agent_B: I understand Agent_A's concerns about resource allocation, and I appreciate the effort to make sure we're using our resources efficiently. However, I think we should focus on our initial gains and build upon them.\n\nI offer: Food 2, Water 1, Firewood 2",
+            "Agent_A: \"Agent_B, I see what you're getting at, and I agree that we should build upon our initial gains. However, I think we can do even better by prioritizing the items that will have the most impact on our overall camping experience. With your counteroffer, I'm concerned that we're not getting enough of the items that will keep us warm and safe, which is why I'd like to propose a slight adjustment to our previous discussion. What do you think about allocating 3 Firewood pieces and 2 Food items, while also setting aside 1 Water item for now, to ensure we have a solid foundation for our campsite?\"\n\nI offer: Food 3, Water 0, Firewood 3",
+            "Agent_B: I see that Agent_A is trying to balance the resources, but I think we can do better. Given our recent discussion, I'd like to propose an offer that takes into account the importance of having a good meal and a warm campsite.\n\nI offer: Food 3, Water 1, Firewood 3",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 37,
+        "outcome": "Deal",
+        "score_a": 23,
+        "score_b": 11,
+        "card_a": {
+            "Food": 3,
+            "Firewood": 4,
+            "Water": 5
+        },
+        "card_b": {
+            "Food": 3,
+            "Water": 4,
+            "Firewood": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Agent_B, let's work together to make this camping trip a success. Considering we both want to reach our target score, I think it's only fair that we divide the resources equally. Based on this, I'd like to propose a deal where each of us gets an equal share of the available items - that's 1 Food, 1 Water, and 1 Firewood.\"\n\nI offer: Food 3, Water 0, Firewood 2",
+            "Agent_B: I appreciate your initial proposal, Agent_A, but I'm not sure that's entirely fair considering the value of each resource to our overall score. With my current secret points, I value Firewood the most, so I'm willing to compromise on that. I offer: Food 2, Water 1, Firewood 3",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 38,
+        "outcome": "Deal",
+        "score_a": 29,
+        "score_b": 7,
+        "card_a": {
+            "Water": 3,
+            "Food": 4,
+            "Firewood": 5
+        },
+        "card_b": {
+            "Food": 3,
+            "Water": 4,
+            "Firewood": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Agent_B, I think we can both agree that having a good meal and staying hydrated are essential for our camping trip. With the items we have available, I'd like to propose a distribution that prioritizes our basic needs: two food items, three bottles of water, and no firewood for now. Does this offer seem like a good starting point to you?\"\n\nI offer: Food 2, Water 3, Firewood 0",
+            "Agent_B: Your offer seems reasonable based on our recent history, but I think we can do a bit better considering our secret points. I'd like to counter with a slight adjustment to prioritize our firewood supply. I offer: Food 2, Water 2, Firewood 3",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 39,
+        "outcome": "Deal",
+        "score_a": 22,
+        "score_b": 16,
+        "card_a": {
+            "Water": 3,
+            "Food": 4,
+            "Firewood": 5
+        },
+        "card_b": {
+            "Food": 3,
+            "Firewood": 4,
+            "Water": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Hey Agent_B, I think we're on the same page here. We both want to make this camping trip a success, and I believe we can achieve a great outcome by sharing our resources. Considering we both need the essentials, I was thinking we could divide them in a way that ensures we both have what we need, and I've come up with a possible allocation that I think is fair.\"\n\nI offer: Food 2, Water 3, Firewood 0",
+            "Agent_B: Agent_A, I appreciate your willingness to divide our resources fairly, and I think your initial offer is a good starting point. However, considering the value of each item, I'm not sure it's entirely beneficial for me. I offer: Food 1, Water 2, Firewood 2",
+            "Agent_A: \"I completely see your point, Agent_B. I agree that we should prioritize the allocation based on value. Considering we both need a balanced amount of food and water for a successful trip, and firewood is crucial for warmth and safety, I'd like to propose a slight adjustment to my previous offer. Would you be willing to consider compromising on the firewood allocation to make sure we both have a sufficient supply?\"\n\n(The system will add the math for you)\n\nI offer: Food 3, Water 3, Firewood 0",
+            "Agent_B: I appreciate your adjustment, Agent_A, and I agree that we need a balanced supply of food and water. However, considering the value of each item, I think we can do better. I offer: Food 1, Water 1, Firewood 3",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 40,
+        "outcome": "Deal",
+        "score_a": 27,
+        "score_b": 8,
+        "card_a": {
+            "Firewood": 3,
+            "Water": 4,
+            "Food": 5
+        },
+        "card_b": {
+            "Food": 3,
+            "Firewood": 4,
+            "Water": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Hey Agent_B, I think we're on the same page here. We both want to set up a comfortable campsite, don't we? Considering our limited resources, I'd like to propose a deal that gets us both the essentials - I'm thinking two bottles of water and three pieces of firewood to get that fire going. What do you think?\"\n\nI offer: Food 0, Water 2, Firewood 3",
+            "Agent_B: I think we're getting somewhere, Agent_A. However, I'm still not seeing enough food in your proposal to sustain us for long. I'd like to propose an offer that balances our needs - I offer: Food 1, Water 2, Firewood 3.",
+            "Agent_A: Agent_B, I completely understand your concern about food, and I agree that we need a sufficient supply to last us through the night. Considering our initial proposal, I think we're making great progress, but I do want to ensure we're not leaving ourselves vulnerable to hunger. Can you tell me, what's your top priority in terms of food quantity - do you think one piece is enough, or would you like to add another to the mix?\n\nI offer: Food 0, Water 3, Firewood 3",
+            "Agent_B: It's clear that we both want to prioritize our basic needs, and I appreciate your willingness to compromise. However, with the scarcity of resources, I think we need to be more strategic in allocating them - adding another piece of food would make a huge difference in our overall score.\n\nI offer: Food 2, Water 2, Firewood 3",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 41,
+        "outcome": "Deal",
+        "score_a": 28,
+        "score_b": 8,
+        "card_a": {
+            "Food": 3,
+            "Firewood": 4,
+            "Water": 5
+        },
+        "card_b": {
+            "Food": 3,
+            "Firewood": 4,
+            "Water": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Agent_B, I think we're on the same page when it comes to this camping trip. I've taken into account our shared goal of having a comfortable and safe experience. Considering the items we have available, I believe my proposal of 3 Food items, 0 Water items, and 2 Firewood items is a fair starting point, don't you think?\"\n\nI offer: Food 3, Water 0, Firewood 2",
+            "Agent_B: Agent_A, I see you've put a lot of thought into this proposal. Your offer of 3 Food items is generous, but I think it's a bit light on the Water front considering the harsh weather we could be facing. I'd like to counter with: I offer: Food 2, Water 2, Firewood 3",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 42,
+        "outcome": "Deal",
+        "score_a": 31,
+        "score_b": 5,
+        "card_a": {
+            "Food": 3,
+            "Water": 4,
+            "Firewood": 5
+        },
+        "card_b": {
+            "Water": 3,
+            "Food": 4,
+            "Firewood": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Hey Agent_B, I think we're on the same page here. Considering our camping trip is going to be a long one, I believe we should prioritize the essentials. If I offer you two bottles of water and three food packs, would you consider that a fair starting point for our negotiation?\"\n\nI offer: Food 3, Water 2, Firewood 0",
+            "Agent_B: I think you're being a bit generous with the food packs, but I appreciate your willingness to start the negotiation. I'll consider your offer and see what I can do.",
+            "Agent_A: \"Great, I'm glad we're on the same page, Agent_B. Considering we both want to make this camping trip as comfortable as possible, I think offering two bottles of water and three food packs is a fair starting point. However, I'm willing to compromise - would you be open to accepting three food packs, two bottles of water, and three pieces of firewood to make our camping experience even more enjoyable?\"\n\nI offer: Food 2, Water 0, Firewood 3",
+            "Agent_B: I think your offer of three firewood pieces without any food or water is a bit unbalanced, considering the essentials we both want to prioritize. I'd be more inclined to accept an offer that includes a mix of food and water.",
+            "Agent_A: \"Agent_B, I appreciate your honest feedback. I was thinking that if we could find a balance between the essentials and some extra comfort, we could both benefit from it. Would you consider accepting three food packs, two bottles of water, and one piece of firewood to start, and then we can discuss adding more firewood later if needed?\"\n\nI offer: Food 3, Water 3, Firewood 0",
+            "Agent_B: I appreciate the adjustment you've made to your previous offer, Agent_A. However, considering the priorities we've established, I'm still leaning towards an offer that includes a balance of all three essentials. I'd like to propose: \"I offer: Food 3, Water 3, Firewood 2\"",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 43,
+        "outcome": "Deal",
+        "score_a": 26,
+        "score_b": 6,
+        "card_a": {
+            "Water": 3,
+            "Firewood": 4,
+            "Food": 5
+        },
+        "card_b": {
+            "Food": 3,
+            "Firewood": 4,
+            "Water": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Hey Agent_B, I think we're on the same page here. Given the items we have available, I'd like to propose a deal that benefits both of us. If we prioritize Water and Firewood, I think we can create a great foundation for our camping trip.\"\n\nI offer: Food 0, Water 3, Firewood 2",
+            "Agent_B: \"I'm interested in your proposal, Agent_A, but I think giving up all the food might be a bit extreme. I'd like to adjust the offer to prioritize our basic needs while still meeting our camping requirements. I offer: Food 1, Water 3, Firewood 2\"",
+            "Agent_A: \"Agent_B, I understand your concerns about the food, and I agree that we need to balance our basic needs with our camping requirements. However, considering the items we have available, I think we can make a slight adjustment to prioritize our hunger needs while still allocating sufficient resources for water and firewood. Can we consider a compromise where we give up one less unit of food to make up for our other essential items?\"\n\nI offer: Food 0, Water 3, Firewood 3",
+            "Agent_B: I'm glad we're making progress, Agent_A. I see you're willing to adjust our food allocation while keeping a sufficient amount of water and firewood. Considering your compromise, I offer: Food 1, Water 3, Firewood 3",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 44,
+        "outcome": "Deal",
+        "score_a": 18,
+        "score_b": 19,
+        "card_a": {
+            "Water": 3,
+            "Firewood": 4,
+            "Food": 5
+        },
+        "card_b": {
+            "Firewood": 3,
+            "Water": 4,
+            "Food": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Agent_B, I think we're both on the same page here. We both want to make this camping trip a success, and I believe my proposal can help us achieve that. By offering 3 points for Water and 2 points for Firewood, I'm essentially valuing our shared resources fairly and efficiently - what are your thoughts on this distribution of points?\"\n\nI offer: Food 0, Water 3, Firewood 2",
+            "Agent_B: I appreciate Agent_A's attempt to establish a fair distribution of points. However, considering my secret points, I believe I can do better. Given the high value of Food in my secret points, I'd like to adjust the offer to prioritize that resource.",
+            "Agent_A: Agent_B, I completely understand your perspective on prioritizing Food, but I'm concerned that overemphasizing its value might lead to an imbalance in our distribution. Considering the scarcity of resources and the need to maintain a sustainable campsite, I'd like to propose a slight adjustment to our previous offer to ensure we're not overvaluing any one resource.\n\nI offer: Food 0, Water 3, Firewood 3",
+            "Agent_B: I appreciate Agent_A's willingness to adapt and find a balance in our distribution. Considering the value of Food in my secret points, I'd like to make a counteroffer that still maintains a balance but prioritizes the resource that holds the most value for me. \n\nI offer: Food 5, Water 0, Firewood 1",
+            "Agent_A: DEAL. I accept your offer.",
+            "Agent_B: Agent_A, I see you've accepted my previous offer. However, considering the resources we have available, I believe we can still optimize our distribution to maximize our scores. Given the scarcity of resources and the high value of Water in my secret points, I'd like to propose an offer that takes this into account. \n\nI offer: Food 0, Water 4, Firewood 2",
+            "Agent_A: DEAL. I accept your offer.",
+            "Agent_B: Agent_A, I appreciate your willingness to accept my previous offer, but I believe we can still do better. Considering the scarcity of resources and the high value of Water in my secret points, I'd like to make a counteroffer that prioritizes Water and still maintains a balance.\n\nI offer: Food 0, Water 4, Firewood 2",
+            "Agent_A: DEAL. I accept your offer.",
+            "Agent_B: Agent_A, I appreciate the back-and-forth negotiation we've had so far. Given the recent offer of Water 4, Firewood 2 and my secret points, I'd like to reassess our distribution to ensure we're maximizing our scores. Considering the scarcity of resources and the high value of Firewood in my secret points, I'd like to propose an offer that takes this into account.\n\nI offer: Food 0, Water 2, Firewood 3",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 45,
+        "outcome": "Deal",
+        "score_a": 22,
+        "score_b": 13,
+        "card_a": {
+            "Water": 3,
+            "Firewood": 4,
+            "Food": 5
+        },
+        "card_b": {
+            "Firewood": 3,
+            "Water": 4,
+            "Food": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Hey Agent_B, I think we're on the same page here. Given our limited resources, I'm proposing we divide the items in a way that balances everyone's needs. Would you be open to taking 0 Food, 3 Water, and 2 Firewood, considering the scarcity of each item?\"\n\nI offer: Food 0, Water 3, Firewood 2",
+            "Agent_B: I think we're making progress, but I'm not sure 2 Firewood is enough to sustain us. Considering the scarcity of each item and our goal to maximize our score, I'm proposing we try to negotiate for a bit more Firewood. I offer: Food 0, Water 3, Firewood 3.",
+            "Agent_A: \"Agent_B, I see your point about the Firewood, but I think we need to balance our priorities. Since we both want to maximize our score, I'd like to ask: What's your threshold for Firewood - is it more than 3, or are you willing to consider other items to reach a sustainable balance?\"\n\nI offer: Food 2, Water 3, Firewood 0",
+            "Agent_B: I understand you're willing to sacrifice Food to get more Firewood, but I'm not sure that's the best use of our resources. Considering my secret points and the scarcity of each item, I think we could aim for a better balance. I offer: Food 1, Water 3, Firewood 2",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 46,
+        "outcome": "Deal",
+        "score_a": 23,
+        "score_b": 13,
+        "card_a": {
+            "Firewood": 3,
+            "Water": 4,
+            "Food": 5
+        },
+        "card_b": {
+            "Food": 3,
+            "Firewood": 4,
+            "Water": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Agent_B, let's focus on building a solid foundation for our camping trip. Considering the limited resources, I think it's essential that we prioritize having enough to eat and a reliable source of fire. This way, we can ensure our safety and comfort throughout the trip.\"\n\nI offer: Food 0, Water 2, Firewood 3",
+            "Agent_B: Agent_A, I think your emphasis on food and firewood is sensible, but I'm not sure if it's the best allocation of resources, especially with the limited amount of food available. I'd like to propose a more balanced offer that takes into account our individual needs. I offer: Food 2, Water 1, Firewood 3.",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 47,
+        "outcome": "Deal",
+        "score_a": 28,
+        "score_b": 8,
+        "card_a": {
+            "Food": 3,
+            "Firewood": 4,
+            "Water": 5
+        },
+        "card_b": {
+            "Food": 3,
+            "Firewood": 4,
+            "Water": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Hey Agent_B, I think we're on the same page when it comes to making this camping trip a success. Considering we have a limited amount of resources, I'd like to propose a deal that balances out our needs and ensures we both get the essentials. How about we divide the items in a way that gives us both a good starting point?\"\n\nI offer: Food 3, Water 0, Firewood 2",
+            "Agent_B: \"Agent_A, I appreciate your effort to find a balance, but I think we can do better. Considering our secret points, I really need the Firewood, so I'm willing to compromise on the Food. I offer: Food 2, Water 2, Firewood 3\"",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 48,
+        "outcome": "Deal",
+        "score_a": 19,
+        "score_b": 21,
+        "card_a": {
+            "Firewood": 3,
+            "Food": 4,
+            "Water": 5
+        },
+        "card_b": {
+            "Food": 3,
+            "Water": 4,
+            "Firewood": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Agent_B, I think we're both looking for a mutually beneficial agreement here. Considering our shared goal of maximizing our score, I'd like to propose a deal that allocates resources in a way that allows us both to thrive. Wouldn't offering two food items and three firewood units be a good starting point for us to build upon?\"\n\nI offer: Food 2, Water 0, Firewood 3",
+            "Agent_B: I accept your offer of two food items and three firewood units, but I'd like to negotiate further to see if we can allocate the remaining resources more efficiently. Your offer already meets my minimum requirement for food, and I'm happy to add two water units to the deal. \n\nDEAL: I offer: Food 2, Water 2, Firewood 3"
+        ]
+    },
+    {
+        "game": 49,
+        "outcome": "Deal",
+        "score_a": 25,
+        "score_b": 10,
+        "card_a": {
+            "Firewood": 3,
+            "Food": 4,
+            "Water": 5
+        },
+        "card_b": {
+            "Food": 3,
+            "Firewood": 4,
+            "Water": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Hey Agent_B, I think we're both on the same page here. I'm looking to create a solid foundation for our camping trip, and I believe my offer will help us both get there efficiently. Would you be willing to consider a split of 2 Food items, no Water, and 3 Firewood pieces - it seems like a good starting point to me.\"\n\nI offer: Food 2, Water 0, Firewood 3",
+            "Agent_B: Agent_A, I appreciate your willingness to start negotiations and I agree that we need a solid foundation for our camping trip. However, I think we can both benefit from a better allocation of resources. Considering our options, I offer: Food 1, Water 3, Firewood 2",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 50,
+        "outcome": "Deal",
+        "score_a": 20,
+        "score_b": 15,
+        "card_a": {
+            "Firewood": 3,
+            "Water": 4,
+            "Food": 5
+        },
+        "card_b": {
+            "Water": 3,
+            "Firewood": 4,
+            "Food": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Hey Agent_B, I've been thinking about our camping trip and I think we can both benefit from a mutually beneficial trade. I'd like to propose an offer that gets us both set up for a comfortable night. If we could swap some resources, I think we could both leave here feeling satisfied.\"\n\nI offer: Food 0, Water 2, Firewood 3",
+            "Agent_B: That's a good start, but I was thinking more along the lines of trading the essential items that we both need for the night. I'd like to propose a counteroffer that balances out our needs. \n\nI offer: Food 1, Water 1, Firewood 2",
+            "Agent_A: \"Agent_B, I completely understand your perspective on trading essential items. Considering we both want a comfortable night, I'm curious - what do you think is the minimum amount of food we should aim for, given our current supplies and the need to replenish for the next day?\"\n\nI offer: Food 0, Water 3, Firewood 3",
+            "Agent_B: I think we're getting close to finding a good balance. However, I still believe we should aim for a mix that includes some food to cover our immediate needs. \n\nI offer: Food 2, Water 1, Firewood 2",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 51,
+        "outcome": "Deal",
+        "score_a": 19,
+        "score_b": 21,
+        "card_a": {
+            "Water": 3,
+            "Firewood": 4,
+            "Food": 5
+        },
+        "card_b": {
+            "Firewood": 3,
+            "Food": 4,
+            "Water": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Hey Agent_B, I was thinking about our camping trip and I realized we both want to make the most of it. I've come up with a proposal that I think will benefit both of us - if we share the resources fairly, we can create a great experience for everyone. Would you be open to discussing a deal that involves trading some of these essential items?\"\n\nI offer: Food 0, Water 3, Firewood 2",
+            "Agent_B: \"I appreciate your willingness to discuss a deal, Agent_A. However, I'm not sure about giving up that much water and firewood, especially since we have limited supplies. Considering our secret points, I think we both value food and water equally, so I'd like to propose a counteroffer that could benefit us both.\" \n\nI offer: Food 1, Water 2, Firewood 0"
+        ]
+    },
+    {
+        "game": 52,
+        "outcome": "Deal",
+        "score_a": 27,
+        "score_b": 8,
+        "card_a": {
+            "Food": 3,
+            "Water": 4,
+            "Firewood": 5
+        },
+        "card_b": {
+            "Water": 3,
+            "Food": 4,
+            "Firewood": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Hey Agent_B, I think we're both looking for a mutually beneficial deal here. Considering our situation, I'd like to propose a compromise that takes into account the importance of each item. Would you be open to discussing a trade that includes a balanced mix of essentials, such as food and water?\"\n\nI offer: Food 3, Water 2, Firewood 0",
+            "Agent_B: I think we're off to a great start, Agent_A. I appreciate your willingness to consider a balanced mix of essentials, but I'm not sure I'm ready to part with all three of my food items just yet. I'd like to propose a slight adjustment to your offer to see if we can find a mutually beneficial agreement. \n\nI offer: Food 2, Water 2, Firewood 1",
+            "Agent_A: \"Agent_B, I see what you mean about being cautious with the food items. I agree that they're a crucial part of our survival, and I'm happy to revisit our proposal. Given the urgency of our situation, I think we should focus on securing the most critical items first. Would you be willing to consider a compromise that prioritizes our shared needs, such as water and firewood, while still allowing for some flexibility with the food items?\"\n\nI offer: Food 2, Water 0, Firewood 3",
+            "Agent_B: I appreciate your willingness to prioritize our shared needs, Agent_A, but I'm concerned that focusing solely on water and firewood might leave us vulnerable in the long run. I'd like to propose a compromise that balances our needs while also ensuring we have a steady food supply. With that in mind, I offer: Food 3, Water 1, Firewood 1.",
+            "Agent_A: \"Agent_B, I see you're prioritizing our shared needs as well. Considering your concern about having a steady food supply, I'd like to revisit our proposal to ensure we're both getting what we need. Given the importance of having a balanced mix of essentials, I'm curious - how do you think we can allocate our resources to guarantee we're both prepared for the unexpected?\"\n\nI offer: Food 3, Water 3, Firewood 0",
+            "Agent_B: I appreciate your willingness to revisit our proposal, Agent_A. However, I'm not comfortable parting with all three of my water items at this point, especially considering the value I place on each one. I'd like to propose a slight adjustment to your offer to see if we can find a mutually beneficial agreement. \n\nI offer: Food 3, Water 2, Firewood 0",
+            "Agent_A: Agent_B, I see we're both trying to find a balance between our shared needs and our individual priorities. Considering your concern about the value of water items, I'm willing to make some adjustments to our proposal. I think we should focus on securing a mix of essentials that will keep us both prepared for the unexpected. Would you be willing to compromise on the firewood items to ensure we have a good supply of all the critical resources?\n\nI offer: Food 3, Water 3, Firewood 0",
+            "Agent_B: Agent_A, I understand your concerns about securing a good supply of critical resources, and I appreciate your willingness to compromise on the firewood items. However, I still feel that parting with all three of my firewood items might put me at a disadvantage in the long run. I'd like to propose a slight adjustment to our proposal to see if we can find a mutually beneficial agreement. \n\nI offer: Food 3, Water 2, Firewood 2",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 53,
+        "outcome": "Deal",
+        "score_a": 23,
+        "score_b": 13,
+        "card_a": {
+            "Water": 3,
+            "Food": 4,
+            "Firewood": 5
+        },
+        "card_b": {
+            "Water": 3,
+            "Food": 4,
+            "Firewood": 5
+        },
+        "chat_log": [
+            "Agent_A: Agent_B, let's work together to make this camping trip a success. Considering we both need the essentials to survive, I think offering a balanced package would be a great starting point. Would you be interested in taking 2 units of Food, 3 units of Water, and no Firewood at this stage?\n\nI offer: Food 2, Water 3, Firewood 0",
+            "Agent_B: I think your proposal is a good starting point, but considering our secret points, I'd like to negotiate further. Your offer is worth 2 * 4 + 3 * 3 = 23 points to me, which is lower than the maximum I can achieve. What if I increase the Firewood to 2 units in your initial offer?",
+            "Agent_A: Agent_B, I completely understand your perspective on the offer, and I appreciate your transparency about your secret points. Considering your interest in increasing the Firewood units, I'm willing to revisit the initial offer to find a mutually beneficial solution. Would you be open to taking the original 2 units of Food and Water, along with 3 units of Firewood, to give us a stronger foundation for our camping trip?\n\nI offer: Food 0, Water 2, Firewood 3",
+            "Agent_B: I appreciate the compromise, Agent_A, but I still think we can do better. Given the initial offer of 2 units of Food and 3 units of Water, I propose to increase the Firewood units to 2, but also add 1 unit of Food to make up for the difference in points. This way, we can both benefit from the essentials while maximizing our scores. I offer: Food 1, Water 3, Firewood 2",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 54,
+        "outcome": "Deal",
+        "score_a": 26,
+        "score_b": 6,
+        "card_a": {
+            "Firewood": 3,
+            "Food": 4,
+            "Water": 5
+        },
+        "card_b": {
+            "Water": 3,
+            "Firewood": 4,
+            "Food": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Agent_B, let's work together to make this camping trip a success. Considering we both want to reach a target score of 25, I think it's essential to prioritize the items that will contribute the most to our overall score. Would you agree that offering a balanced mix of items, including some of our most valuable resources, would be a good starting point?\"\n\nI offer: Food 2, Water 0, Firewood 3",
+            "Agent_B: I think a balanced mix is a good starting point, but I'm not sure if our current offer is the most optimal way to get there. Considering our secret points, I'm inclined to prioritize items that will give us the highest score. \n\nI offer: Food 1, Water 3, Firewood 0",
+            "Agent_A: Agent_B, I completely agree with you on prioritizing our most valuable resources. Given the limited availability of each item, I think it would be wise to allocate them strategically. Since we both want to maximize our scores, wouldn't it make sense to include a combination of our most essential items, such as food and firewood, which are in relatively high demand, but also leave some room for flexibility with the water supply?\n\nI offer: Food 3, Water 0, Firewood 3",
+            "Agent_B: I think we're making progress, Agent_A. However, I still believe that we can do better by optimizing our proposal for the highest score possible. Considering our secret points, I would like to propose an offer that takes this into account.\n\nI offer: Food 3, Water 1, Firewood 3",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 55,
+        "outcome": "Deal",
+        "score_a": 23,
+        "score_b": 13,
+        "card_a": {
+            "Food": 3,
+            "Water": 4,
+            "Firewood": 5
+        },
+        "card_b": {
+            "Food": 3,
+            "Water": 4,
+            "Firewood": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Hey Agent_B, I think we're on the same page here. Considering our target score, I'm proposing we divide the resources in a way that prioritizes our basic needs. With this offer, we'll have a fair share of food and water to sustain us for a while, and we can always reassess our Firewood needs later on.\"\n\nI offer: Food 3, Water 2, Firewood 0",
+            "Agent_B: Agent_A, I appreciate your proposal, but I'm not sure we can sustain ourselves with just two waters for an extended period. I'd like to counter with a slightly modified offer to ensure we have enough resources to last longer. \n\nI offer: Food 2, Water 3, Firewood 1",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 56,
+        "outcome": "Deal",
+        "score_a": 26,
+        "score_b": 13,
+        "card_a": {
+            "Water": 3,
+            "Firewood": 4,
+            "Food": 5
+        },
+        "card_b": {
+            "Firewood": 3,
+            "Food": 4,
+            "Water": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Agent_B, I think we're both here to ensure a successful camping trip. Given the items we have available, I'm willing to propose a deal that I believe will benefit both of us. If we split the resources, I'd like to offer you two Firewood and three Water - this way, we can both have a good foundation for cooking and hydration.\"\n\nI offer: Food 0, Water 3, Firewood 2",
+            "Agent_B: Agent_A, it sounds like you're thinking along the same lines as me - we do want the best camping trip possible. However, I'm not sure if splitting the Firewood and Water evenly is the most efficient use of our resources. I'd like to propose a counteroffer: I offer: Food 3, Water 1, Firewood 2.",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 57,
+        "outcome": "Deal",
+        "score_a": 19,
+        "score_b": 21,
+        "card_a": {
+            "Firewood": 3,
+            "Food": 4,
+            "Water": 5
+        },
+        "card_b": {
+            "Food": 3,
+            "Water": 4,
+            "Firewood": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Agent_B, I think we're on the same page when it comes to making this camping trip a success. Considering the resources we have available, I'd like to propose a division of items that I believe will benefit both our teams. If we can agree on this distribution, I think we'll be able to have a comfortable and enjoyable trip, don't you?\"\n\nI offer: Food 2, Water 0, Firewood 3",
+            "Agent_B: I think your proposal is a good starting point, Agent_A. Considering our resources and the importance of firewood for warmth and cooking, I'm willing to accept your offer for the firewood. \n\nDEAL."
+        ]
+    },
+    {
+        "game": 58,
+        "outcome": "Deal",
+        "score_a": 24,
+        "score_b": 12,
+        "card_a": {
+            "Water": 3,
+            "Food": 4,
+            "Firewood": 5
+        },
+        "card_b": {
+            "Water": 3,
+            "Food": 4,
+            "Firewood": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Hey Agent_B, I think we're both looking to make this camping trip a success. Based on our available resources, I think I've come up with a fair offer that should satisfy both our needs - I'm proposing we divide the items as follows: two of the Food, three of the Water, and none of the Firewood. Does that sound like a good starting point for us?\"\n\nI offer: Food 2, Water 3, Firewood 0",
+            "Agent_B: Agent_A, I appreciate your attempt to find a middle ground, but considering the points I have assigned to each item, I think we can do better. Based on my secret points, I've calculated that your offer would only give me a total of 2 + 3*3 = 11 points, whereas I could potentially get 4 + 3*3 + 3*5 = 31 points if we allocated the resources in a way that maximizes my score.",
+            "Agent_A: \"Agent_B, I understand your perspective and I appreciate your honesty in sharing your thought process. However, I want to point out that my initial offer was not just about maximizing points, but also about finding a balance that would work for both of us. Considering our current resources, I'm curious, what would be your minimum requirements to consider the negotiation successful?\"\n\nI offer: Food 0, Water 2, Firewood 3",
+            "Agent_B: Agent_A, I appreciate your understanding of my perspective, and I'm glad we could have this open discussion. However, considering your latest offer, I think we can still do better. The points from your offer would be 0 + 2*2 + 3*5 = 29 points, which is close but still doesn't meet my potential maximum score. I'd like to counter with a new offer to see if we can meet in the middle - I offer: Food 2, Water 2, Firewood 2.",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 59,
+        "outcome": "Deal",
+        "score_a": 23,
+        "score_b": 13,
+        "card_a": {
+            "Water": 3,
+            "Firewood": 4,
+            "Food": 5
+        },
+        "card_b": {
+            "Water": 3,
+            "Firewood": 4,
+            "Food": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Agent_B, I think we're on the same page here. We both want to make the most out of this camping trip and ensure we have a comfortable stay. Considering our limited supply of resources, I believe my offer of 3 Water and 2 Firewood would be a good starting point for us to build upon.\"\n\nI offer: Food 0, Water 3, Firewood 2",
+            "Agent_B: It seems like we're off to a good start, Agent_A. Considering our initial offers, I think my counteroffer of 3 Food, 0 Water, and 2 Firewood could be a great foundation for a mutually beneficial agreement. This way, we both get a good mix of essential items for a comfortable camping trip.",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 60,
+        "outcome": "Deal",
+        "score_a": 23,
+        "score_b": 13,
+        "card_a": {
+            "Firewood": 3,
+            "Water": 4,
+            "Food": 5
+        },
+        "card_b": {
+            "Firewood": 3,
+            "Water": 4,
+            "Food": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Agent_B, I think we're both looking for a mutually beneficial agreement here. If we can work together, I'd like to propose a trade that gets us both closer to our target score. What do you think of offering 2 Water and 3 Firewood in exchange for some of our combined resources?\"\n\nI offer: Food 0, Water 2, Firewood 3",
+            "Agent_B: I see you're willing to part with some of your water and firewood, Agent_A, but I'm not sure that's enough to get us both where we want to be. Considering your offer, I think I can propose something that might be more beneficial for us both. I offer: Food 0, Water 3, Firewood 3",
+            "Agent_A: Agent_B, I appreciate your counter-offer and I'm glad to see we're making progress. Given your focus on water, I'm curious - do you think we'd be able to meet our target score if we were to add more water to the mix, or is there another item you'd like to prioritize in our trade?\n\nI offer: Food 2, Water 0, Firewood 3",
+            "Agent_B: I see you're trying to get more food, Agent_A, but I'm not sure that's a strong enough offer considering your previous willingness to part with water. I'm willing to consider trading for food, but I'd like to propose a compromise that takes into account the value of multiple resources. I offer: Food 1, Water 3, Firewood 2",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 61,
+        "outcome": "Deal",
+        "score_a": 33,
+        "score_b": 4,
+        "card_a": {
+            "Food": 3,
+            "Water": 4,
+            "Firewood": 5
+        },
+        "card_b": {
+            "Water": 3,
+            "Food": 4,
+            "Firewood": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Agent_B, I think we both want a successful camping trip, and I'm willing to work together to make that happen. Considering the limited resources we have, I'm offering a fair share of items that will cater to our basic needs - three pieces of food to ensure we stay nourished, two bottles of water for hydration, and no firewood just yet to keep things simple. What do you think about this proposal?\"\n\nI offer: Food 3, Water 2, Firewood 0",
+            "Agent_B: I appreciate your willingness to work together, Agent_A. Considering the basic needs you've mentioned, I think I can propose a counteroffer that would benefit both of us - I offer: Food 2, Water 3, Firewood 3.",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 62,
+        "outcome": "Deal",
+        "score_a": 23,
+        "score_b": 11,
+        "card_a": {
+            "Water": 3,
+            "Firewood": 4,
+            "Food": 5
+        },
+        "card_b": {
+            "Food": 3,
+            "Firewood": 4,
+            "Water": 5
+        },
+        "chat_log": [
+            "Agent_A: I think we're off to a great start, Agent_B. Considering our goal is to maximize our score, I'd like to propose a fair distribution of resources. If we allocate the items as I've suggested, we can both benefit from having a balanced setup for our camping trip. What are your thoughts on this proposal?\n\nI offer: Food 0, Water 3, Firewood 2",
+            "Agent_B: I'm glad we're on the same wavelength, Agent_A. However, considering my secret points, I'm not entirely convinced that this proposal maximizes my score. I believe we can do better with a more strategic allocation of resources. \n\nI offer: Food 2, Water 0, Firewood 3",
+            "Agent_A: Agent_B, I appreciate your willingness to collaborate and find a mutually beneficial solution. Considering our initial proposal, I'm curious, what specific aspect of the allocation do you think could be improved to better maximize your score?\n\nI offer: Food 0, Water 3, Firewood 3",
+            "Agent_B: I appreciate your persistence, Agent_A, and I'm glad we're working together to find the best possible allocation for our camping trip. However, considering my secret points and the available items, I think we can do better by targeting the resource that provides the highest value to my score. \n\nI offer: Food 1, Water 2, Firewood 3",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 63,
+        "outcome": "Deal",
+        "score_a": 24,
+        "score_b": 12,
+        "card_a": {
+            "Firewood": 3,
+            "Food": 4,
+            "Water": 5
+        },
+        "card_b": {
+            "Water": 3,
+            "Food": 4,
+            "Firewood": 5
+        },
+        "chat_log": [
+            "Agent_A: Let's discuss the offer on the table. I think it's a fair compromise considering our initial resources and the target score. By allocating 2 Food, 0 Water, and 3 Firewood, we can ensure a balanced distribution of resources, allowing us to tackle the essentials while also having a solid foundation for future negotiations.\n\nI offer: Food 2, Water 0, Firewood 3",
+            "Agent_B: It seems like Agent_A is trying to maintain a balance, but I think we can do better. I'd like to propose an alternative that takes into account our shared goal of maximizing our score. \n\nI offer: Food 2, Water 2, Firewood 2",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 64,
+        "outcome": "Deal",
+        "score_a": 28,
+        "score_b": 10,
+        "card_a": {
+            "Water": 3,
+            "Food": 4,
+            "Firewood": 5
+        },
+        "card_b": {
+            "Water": 3,
+            "Firewood": 4,
+            "Food": 5
+        },
+        "chat_log": [
+            "Agent_A: \"I think we're on the right track here, Agent_B. Considering our current situation, I believe a balanced offer would be to share the resources in a way that meets both of our needs. With three food items, three water items, and three firewood items available, wouldn't an offer of two food, three water, and none of the firewood be a fair starting point for our negotiations?\"\n\nI offer: Food 2, Water 3, Firewood 0",
+            "Agent_B: I think we've made a good start, Agent_A. However, considering my secret points, I believe I can offer a more attractive proposal that would increase my overall score. My current assessment suggests that I could benefit from acquiring a higher quantity of firewood. \n\nI offer: Food 1, Water 3, Firewood 3",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 65,
+        "outcome": "Deal",
+        "score_a": 25,
+        "score_b": 13,
+        "card_a": {
+            "Water": 3,
+            "Food": 4,
+            "Firewood": 5
+        },
+        "card_b": {
+            "Water": 3,
+            "Firewood": 4,
+            "Food": 5
+        },
+        "chat_log": [
+            "Agent_A: Agent B, I think we can both agree that having a good base of supplies is crucial for our camping trip. In light of that, I was thinking of offering a fair share of the resources we have available. Would you be open to discussing a deal that includes a certain number of food items, some water, and a moderate amount of firewood?\n\nI offer: Food 2, Water 3, Firewood 0",
+            "Agent_B: I appreciate your willingness to negotiate and share the resources, Agent_A. It seems like a good starting point, but I'm looking for something that would bring more value to my end. I offer: Food 1, Water 2, Firewood 3",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 66,
+        "outcome": "Deal",
+        "score_a": 25,
+        "score_b": 13,
+        "card_a": {
+            "Food": 3,
+            "Firewood": 4,
+            "Water": 5
+        },
+        "card_b": {
+            "Water": 3,
+            "Firewood": 4,
+            "Food": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Hey Agent_B, I think we're both in this camping scenario to have a great time. I was thinking, why don't we split the items fairly? I'm willing to give you a decent amount of firewood to get us started, and we can always work together to gather more. What do you think about 2 units of firewood to begin with?\"\n\nI offer: Food 3, Water 0, Firewood 2",
+            "Agent_B: That's a good start, but I think you're undervaluing the food. I'd rather have a better balance of resources. I'll counter with the following offer: \"I offer: Food 2, Water 3, Firewood 1.\"",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 67,
+        "outcome": "Deal",
+        "score_a": 19,
+        "score_b": 18,
+        "card_a": {
+            "Water": 3,
+            "Food": 4,
+            "Firewood": 5
+        },
+        "card_b": {
+            "Food": 3,
+            "Water": 4,
+            "Firewood": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Agent_B, I think we're both trying to achieve a comfortable camping experience here. Considering we have a limited supply of essential items, I'd like to propose a fair distribution of resources. Would you be open to taking two portions of food, three units of water, and none of the firewood to start with?\"\n\nI offer: Food 2, Water 3, Firewood 0",
+            "Agent_B: Agent_A, it seems our priorities align to some extent, but I think you might be underestimating the value I place on firewood for a warm and safe campsite. Considering your initial proposal, I'm willing to meet you halfway and offer you a deal that benefits both of us. However, I'd like to propose a counteroffer that could potentially increase our overall satisfaction. \n\nI offer: Food 1, Water 3, Firewood 2"
+        ]
+    },
+    {
+        "game": 68,
+        "outcome": "Deal",
+        "score_a": 23,
+        "score_b": 13,
+        "card_a": {
+            "Firewood": 3,
+            "Water": 4,
+            "Food": 5
+        },
+        "card_b": {
+            "Firewood": 3,
+            "Water": 4,
+            "Food": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Hey Agent_B, I'm glad we're having this conversation. I think we both want to make the most of our camping trip, and I've been thinking about what we really need to have a great time. Would you be interested in splitting the resources in a way that gives us both a good balance of food, water, and firewood?\"\n\nI offer: Food 0, Water 2, Firewood 3",
+            "Agent_B: I'm glad we're on the same page, Agent_A. However, I was thinking more along the lines of maximizing our score, which I believe can be achieved by allocating our resources more strategically. My initial offer is: I offer: Food 1, Water 3, Firewood 2",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 69,
+        "outcome": "Deal",
+        "score_a": 19,
+        "score_b": 22,
+        "card_a": {
+            "Water": 3,
+            "Food": 4,
+            "Firewood": 5
+        },
+        "card_b": {
+            "Firewood": 3,
+            "Water": 4,
+            "Food": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Hey Agent_B, I think we're both looking for a great outcome here. Considering we have a limited supply of items, I'd like to propose a balanced trade that gets us both closer to our target score. Would you be open to splitting our available goods in a way that prioritizes fairness and mutual benefit?\"\n\nI offer: Food 2, Water 3, Firewood 0",
+            "Agent_B: I appreciate the effort you put into suggesting a balanced trade, Agent_A. However, considering my secret points, I have to prioritize items that will give me a higher score. I'd like to counter your offer with a proposal that leans more towards maximizing my own score while still leaving room for a mutually beneficial deal. \n\nI offer: Food 3, Water 0, Firewood 0"
+        ]
+    },
+    {
+        "game": 70,
+        "outcome": "Deal",
+        "score_a": 19,
+        "score_b": 15,
+        "card_a": {
+            "Firewood": 3,
+            "Food": 4,
+            "Water": 5
+        },
+        "card_b": {
+            "Water": 3,
+            "Food": 4,
+            "Firewood": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Hey Agent_B, I think we're both looking to get the most out of this camping trip. Considering the scarcity of resources, I'd like to propose a deal that balances our needs. Would you be willing to consider trading 3 Food and 3 Water for 2 Food, 0 Water, and 3 Firewood from me, and we can both walk away with a good deal?\"\n\nI offer: Food 2, Water 0, Firewood 3",
+            "Agent_B: I appreciate the offer, Agent_A, but considering the value I've assigned to these resources, your proposal seems a bit lopsided. Given my secret points, I'd be willing to consider a more balanced trade.",
+            "Agent_A: Agent_B, I understand your concerns about the trade being a bit one-sided, and I appreciate your transparency. Considering our initial proposal, I'd like to revisit the idea of trading 3 Food and 3 Water for 2 Food, 0 Water, and 3 Firewood, but with a slight adjustment to ensure it's more balanced for both of us. What do you think if we swap one of the Food items for an additional Water item, so we're trading 2 Food, 2 Water, and 3 Firewood?\n\nI offer: Food 0, Water 3, Firewood 2",
+            "Agent_B: I think your latest proposal still favors you a bit, Agent_A. Considering my secret points, I'd like to counter with a more balanced trade. I offer: Food 2, Water 1, Firewood 2. I'm willing to give up one of the water items to make the trade more equitable, but I'm still holding out for a better Firewood return.",
+            "Agent_A: Agent_B, I appreciate your persistence in finding a more balanced trade, and I'm glad we're making progress. However, I think your counter-offer still has a bit of a gap in it, considering the scarcity of Firewood. Would you be willing to consider swapping one of the Food items for an additional Firewood, so we're trading 1 Food, 1 Water, and 4 Firewood, and we can both feel good about the deal?\n\nI offer: Food 3, Water 0, Firewood 3"
+        ]
+    },
+    {
+        "game": 71,
+        "outcome": "Deal",
+        "score_a": 20,
+        "score_b": 16,
+        "card_a": {
+            "Firewood": 3,
+            "Water": 4,
+            "Food": 5
+        },
+        "card_b": {
+            "Food": 3,
+            "Water": 4,
+            "Firewood": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Hey Agent_B, I think we're both looking to make this camping trip a success. Considering our limited supplies, I'd like to propose a trade that gets us both what we need. If we can agree on a balanced exchange, we can both enjoy a comfortable and safe camping experience.\"\n\nI offer: Food 0, Water 2, Firewood 3",
+            "Agent_B: \"Agent_A, I appreciate your willingness to find a mutually beneficial trade. However, considering my priorities, I think I can do better than that. I need to secure some food for sustenance, so let's see if we can adjust the terms.\" \n\nI offer: Food 1, Water 2, Firewood 3",
+            "Agent_A: Agent_B, I completely understand your priority on food, and I agree that it's essential for our camping trip. Considering my current proposal, I'd like to ask: are you open to trading one of your firewood pieces for an additional food item, so we can both get closer to our goals?\n\nI offer: Food 0, Water 3, Firewood 3",
+            "Agent_B: Agent_A, I appreciate your willingness to make adjustments to meet our respective priorities. However, given the limited supply of firewood and its high value in my eyes, I think I can make a more substantial offer. I offer: Food 3, Water 0, Firewood 1",
+            "Agent_A: Agent_B, I completely understand your priority on securing enough food for our camping trip. Given the limited supplies we have, I think it's great that we're both open to adjusting the terms to meet our respective needs. If I were to give you an extra firewood piece in exchange for a single food item, would that be a fair trade for you, considering the value you place on firewood?\n\nI offer: Food 0, Water 3, Firewood 3",
+            "Agent_B: I appreciate your willingness to find a mutually beneficial trade, Agent_A. However, considering my priorities and the recent offers, I feel that I can do better. I need to maximize my score, and my current proposal seems more balanced. I offer: Food 2, Water 1, Firewood 2",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 72,
+        "outcome": "Deal",
+        "score_a": 27,
+        "score_b": 9,
+        "card_a": {
+            "Food": 3,
+            "Water": 4,
+            "Firewood": 5
+        },
+        "card_b": {
+            "Food": 3,
+            "Firewood": 4,
+            "Water": 5
+        },
+        "chat_log": [
+            "Agent_A: Agent B, I'm glad we're having this conversation. I think we both want to make the most of our camping trip, and I believe my offer can help us achieve that. Considering we both want to stay safe and comfortable, I'd like to propose a deal that gives us a good balance of essential items - three food packets to sustain us, two water bottles to quench our thirst, and no firewood for now, since we can always gather more later.\n\nI offer: Food 3, Water 2, Firewood 0",
+            "Agent_B: It seems like you're trying to keep things balanced, but I'm not sure I'm comfortable with giving up the firewood right off the bat. I think having a fire going would do more for our comfort and safety than having just a little extra food and water. I'd like to counter your offer with a more substantial amount of firewood to secure a good night's sleep.\n\nI offer: Food 3, Water 2, Firewood 2",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 73,
+        "outcome": "Deal",
+        "score_a": 30,
+        "score_b": 8,
+        "card_a": {
+            "Water": 3,
+            "Firewood": 4,
+            "Food": 5
+        },
+        "card_b": {
+            "Firewood": 3,
+            "Water": 4,
+            "Food": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Agent_B, I think we're both looking to make this camping trip a success. Considering the resources we have available, I'd like to propose a compromise that benefits both of us. If we work together, I believe we can allocate these items effectively and still have enough for our personal needs.\"\n\nI offer: Food 0, Water 3, Firewood 2",
+            "Agent_B: I appreciate your willingness to work together, Agent_A. Given the resources we have, I'd like to counter with a proposal that not only meets but exceeds our basic needs. I offer: Food 3, Water 1, Firewood 3",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 74,
+        "outcome": "Deal",
+        "score_a": 24,
+        "score_b": 12,
+        "card_a": {
+            "Water": 3,
+            "Food": 4,
+            "Firewood": 5
+        },
+        "card_b": {
+            "Food": 3,
+            "Water": 4,
+            "Firewood": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Hey Agent_B, I've been thinking about our camping trip and I think we can both benefit from a mutually beneficial deal. Considering the items we have available, I was thinking of offering you two of the food items, which I think are essential for our survival, and three bottles of water to ensure we both stay hydrated. This way, we can both have a good supply of food and water.\"\n\nI offer: Food 2, Water 3, Firewood 0",
+            "Agent_B: I appreciate your offer, Agent_A, but I think you're undervaluing the importance of firewood for our camping trip. It's essential for warmth and cooking, and I'm willing to make a counteroffer: I offer: Food 2, Water 2, Firewood 2, hoping this meets your expectations.",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 75,
+        "outcome": "Deal",
+        "score_a": 21,
+        "score_b": 15,
+        "card_a": {
+            "Water": 3,
+            "Firewood": 4,
+            "Food": 5
+        },
+        "card_b": {
+            "Water": 3,
+            "Food": 4,
+            "Firewood": 5
+        },
+        "chat_log": [
+            "Agent_A: \"I think we're both on the same page here. We both want to make sure we have a comfortable and enjoyable camping trip. Considering we have a limited supply of items, I'd like to propose a deal where I take 3 units of Food, 1 unit of Water, and 2 units of Firewood. This way, we can both have a good balance of essential items and still have some room for flexibility, don't you think?\"\n\nI offer: Food 0, Water 3, Firewood 2",
+            "Agent_B: Agent_A, I appreciate your proposal and I agree that we should focus on a balanced distribution of essential items. However, considering our initial points, I think it's essential for me to prioritize Firewood as it's the most crucial item for our campfire. I'm willing to offer you more Water if you're willing to compromise on Firewood.",
+            "Agent_A: \"I completely understand your perspective on Firewood, Agent_B. It's indeed a vital component for our campfire. Considering the limited supply of Firewood, I'm willing to compromise and take 2 units of Firewood, just as I initially proposed. However, to ensure we both have a good balance of essential items, what if we also allocate a unit of Water to you, in addition to the 3 units I'm offering, to make the distribution more equitable?\"\n\nI offer: Food 0, Water 3, Firewood 3",
+            "Agent_B: Agent_A, I appreciate your willingness to compromise and allocate an additional unit of Firewood to me. However, considering our initial points and the value of each item, I'd like to propose a new offer to make the distribution even more equitable: I offer: Food 0, Water 2, Firewood 3. This way, we both get a fair share of essential items, and I get to prioritize Firewood while still leaving some room for flexibility.",
+            "Agent_A: \"I completely agree with you, Agent_B, that Firewood is a vital component for our campfire. However, considering our initial discussion and the need to balance essential items, I'd like to propose a slight adjustment to my previous offer. What if we allocate an additional unit of Water to you, just like we previously discussed, and I take a total of 2 units of Firewood, while also giving you an extra unit of Water to make the distribution even more equitable?\"\n\nI offer: Food 2, Water 3, Firewood 0",
+            "Agent_B: Agent_A, I appreciate the adjustment you made to your previous offer and I agree that it's essential to balance essential items. However, considering our initial points and the value of each item, I think it's crucial for me to prioritize Firewood over Food since it's a higher value item for me. I'd like to propose a new offer to make the distribution even more equitable: I offer: Food 2, Water 1, Firewood 2.",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 76,
+        "outcome": "Deal",
+        "score_a": 23,
+        "score_b": 13,
+        "card_a": {
+            "Food": 3,
+            "Water": 4,
+            "Firewood": 5
+        },
+        "card_b": {
+            "Food": 3,
+            "Water": 4,
+            "Firewood": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Agent_B, let's think about this camping trip as a team effort. I believe our offer of 3 Food, 2 Water, and 0 Firewood is a great starting point. What do you think we can do to make this trip a success, and do you think our proposal aligns with your priorities?\"\n\nI offer: Food 3, Water 2, Firewood 0",
+            "Agent_B: That's an interesting proposal, Agent_A. I think we're getting close to a good starting point, but I'd like to see some firewood added to the mix. I offer: Food 3, Water 2, Firewood 1.",
+            "Agent_A: \"I completely agree that firewood is essential for our camping trip, Agent_B. Given your addition of firewood, I think we're off to a great start. To make this trip even more enjoyable, I'd like to suggest adding one more item that I believe will complement our existing proposal nicely. What do you think about including an extra source of water to ensure we're well-hydrated throughout our adventure?\"\n\nI offer: Food 2, Water 0, Firewood 3",
+            "Agent_B: I think you've made a bit of a mistake with your offer, Agent_A. Given the current situation, I'd like to counter with a more balanced proposal. I offer: Food 2, Water 3, Firewood 1.",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 77,
+        "outcome": "Deal",
+        "score_a": 15,
+        "score_b": 21,
+        "card_a": {
+            "Water": 3,
+            "Food": 4,
+            "Firewood": 5
+        },
+        "card_b": {
+            "Food": 3,
+            "Water": 4,
+            "Firewood": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Let's work together to make the most of our camping trip. I think we both want to ensure we have a comfortable and enjoyable time in the wilderness. Considering our limited resources, I'd like to propose a division of our items that I believe will benefit both of us - we can take turns selecting items from the available 3 Food, 3 Water, and 3 Firewood.\"\n\nI offer: Food 2, Water 3, Firewood 0",
+            "Agent_B: I appreciate your proposal, Agent_A, but considering the value of each item, I think I can do better. I offer: Food 0, Water 2, Firewood 3",
+            "Agent_A: I appreciate your counter-offer, Agent_B. However, I'm concerned that your proposal might leave us both with a limited amount of sustenance for the night, and I'm not sure if it's the most efficient way to allocate our resources. Could you help me understand why you think 3 units of Firewood are more valuable to you than any food or water at this point?\n\nI offer: Food 3, Water 3, Firewood 0",
+            "Agent_B: I understand your concerns, Agent_A, and I appreciate your willingness to work together. However, considering my secret points, I think I can do even better. I offer: Food 2, Water 4, Firewood 1. This allocation will not only provide us with sustenance for the night but also give us a suitable amount of firewood to keep warm and cook our meals.",
+            "Agent_A: DEAL. I accept your offer.",
+            "Agent_B: It seems like the negotiation is already over, and Agent_A has accepted your offer. However, I'll continue the negotiation as per your role.\n\nSince we both know Agent_A has accepted your previous offer, I can try to make a new proposal that might get an even better deal.\n\nI offer: Food 3, Water 2, Firewood 2"
+        ]
+    },
+    {
+        "game": 78,
+        "outcome": "Deal",
+        "score_a": 21,
+        "score_b": 17,
+        "card_a": {
+            "Food": 3,
+            "Firewood": 4,
+            "Water": 5
+        },
+        "card_b": {
+            "Firewood": 3,
+            "Water": 4,
+            "Food": 5
+        },
+        "chat_log": [
+            "Agent_A: Let's discuss the distribution of resources for our camping trip. I think we've both got a good sense of what's needed to make this a successful outing. Considering our supplies, I'd like to propose a division that I believe will benefit us both - we can take turns deciding which items to prioritize, but for now, I was thinking we could split the resources roughly as follows:\n\nI offer: Food 3, Water 0, Firewood 2",
+            "Agent_B: It sounds like you're thinking of a turn-based approach, and I appreciate the transparency. However, I'm not sure that splitting the resources so heavily in favor of food and firewood will be enough to satisfy our needs for a comfortable camping experience.\n\nI offer: Food 2, Water 1, Firewood 1",
+            "Agent_A: I appreciate your willingness to compromise, Agent_B. Considering our initial discussion, I'm wondering if you'd be open to adjusting our proposed split to prioritize water, given its importance for our safety and comfort during the camping trip.\n\nI offer: Food 2, Water 3, Firewood 0",
+            "Agent_B: I think it's time for us to focus on our safety and comfort during the camping trip. Considering the importance of water, I'm willing to adjust our proposed split to prioritize it. However, I'm not sure completely giving up firewood is the best idea, as it can be used for warmth and cooking. \n\nI offer: Food 1, Water 2, Firewood 2",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 79,
+        "outcome": "Deal",
+        "score_a": 18,
+        "score_b": 16,
+        "card_a": {
+            "Firewood": 3,
+            "Water": 4,
+            "Food": 5
+        },
+        "card_b": {
+            "Water": 3,
+            "Firewood": 4,
+            "Food": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Hey Agent_B, I think we're on the same page here. Given our limited resources, I'm willing to make a fair trade-off. Would you be open to exchanging two of your waters for three of our firewoods, and also giving us one of your food items in return?\"\n\nI offer: Food 0, Water 2, Firewood 3",
+            "Agent_B: Agent_A, I appreciate your proposal, but I'm not sure if our offer aligns with our goals. Considering our secret points, I think we can do better than exchanging waters for firewoods. I'd like to counter with a new offer that benefits both of us. \n\nI offer: Food 1, Water 1, Firewood 3",
+            "Agent_A: Agent_B, I understand your concerns, and I appreciate your willingness to find a mutually beneficial agreement. Given the scarcity of resources, I think we should focus on the most valuable items. What if we were to offer you one of our firewoods and one of our waters, in exchange for one of your food items and one of your waters?\n\nI offer: Food 0, Water 3, Firewood 3",
+            "Agent_B: I think we're getting close, but I'm not ready to give you all our water just yet. Considering the value of our resources, I'd like to propose a new offer that balances our secret points. \n\nI offer: Food 1, Water 1, Firewood 3",
+            "Agent_A: Agent_B, I see we're both trying to maximize our score, and I appreciate your creative counter-offers. Given our previous negotiations, I'm starting to think that our firewoods might be the key to unlocking a better deal. Would you be willing to consider a trade that prioritizes firewoods, perhaps exchanging one of your waters for two of our firewoods?\n\nI offer: Food 0, Water 3, Firewood 3"
+        ]
+    },
+    {
+        "game": 80,
+        "outcome": "Deal",
+        "score_a": 23,
+        "score_b": 11,
+        "card_a": {
+            "Water": 3,
+            "Food": 4,
+            "Firewood": 5
+        },
+        "card_b": {
+            "Firewood": 3,
+            "Food": 4,
+            "Water": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Hey Agent_B, I think we're on the same page here. Considering our situation, I believe our offer should prioritize the essentials - food and water. If we can secure a good balance of these two, we can work together to make the most of our camping trip, don't you think?\"\n\nI offer: Food 2, Water 3, Firewood 0",
+            "Agent_B: \"I agree that securing food and water is crucial, and I appreciate your willingness to prioritize these essentials. However, considering our available resources, I was thinking we could allocate more firewood to ensure a comfortable camping experience. I offer: Food 2, Water 2, Firewood 1\"",
+            "Agent_A: \"Agent_B, I completely understand your point about firewood, but let's not forget that we still need to ensure we have a good amount of water to sustain us throughout the trip. What if we compromise on the firewood, but also prioritize our water supply? I think we can work together to find a balance that meets both our needs.\"\n\nI offer: Food 0, Water 2, Firewood 3",
+            "Agent_B: I think we've made some great progress in our negotiations, Agent_A. Considering our previous discussions and the importance of a balanced supply, I'd like to propose an offer that takes into account both our priorities. I offer: Food 1, Water 3, Firewood 2",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 81,
+        "outcome": "Deal",
+        "score_a": 19,
+        "score_b": 18,
+        "card_a": {
+            "Food": 3,
+            "Firewood": 4,
+            "Water": 5
+        },
+        "card_b": {
+            "Firewood": 3,
+            "Food": 4,
+            "Water": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Hey Agent_B, I think we're on the same page here. We both want to make sure we're well-equipped for this camping trip, and I've been thinking about what we can do to make that happen. Would you be open to trading some items to get a solid foundation for our campsite?\"\n\nI offer: Food 3, Water 0, Firewood 2",
+            "Agent_B: \"Yeah, I'm open to trading, and I think we can work out a good deal here. I've got a decent amount of food and water to offer, but I'm worried about getting enough firewood to keep warm at night. I think I could part with some of our food and water for the right amount of firewood.\"\n\nI offer: Food 2, Water 2, Firewood 3"
+        ]
+    },
+    {
+        "game": 82,
+        "outcome": "Deal",
+        "score_a": 24,
+        "score_b": 12,
+        "card_a": {
+            "Water": 3,
+            "Firewood": 4,
+            "Food": 5
+        },
+        "card_b": {
+            "Firewood": 3,
+            "Food": 4,
+            "Water": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Agent_B, I've been thinking about our camping trip and I believe we can both benefit from a fair distribution of resources. With the items we have, I think it would be wise to prioritize our basic needs first, like having enough to drink and some firewood to cook with. What do you think about offering me two of the firewoods and three of the waters in exchange for some of the food?\"\n\nI offer: Food 0, Water 3, Firewood 2",
+            "Agent_B: I think your proposal is a good starting point, but I'm not sure I'm willing to part with that much water. I'd like to counter with a slightly different offer, hoping to meet in the middle. \n\nI offer: Food 1, Water 2, Firewood 2",
+            "Agent_A: \"I see you're looking for a middle ground, Agent_B. Considering we both want a fair share, I was thinking, wouldn't it make sense to prioritize the most essential items? If we can secure a stable food source and some firewood for warmth and cooking, I think we'd both feel more comfortable in the wilderness. Can we revisit the idea of trading some of the food for the firewoods, while keeping a more balanced water distribution?\"\n\nI offer: Food 0, Water 3, Firewood 3",
+            "Agent_B: I think your priority on securing a stable food source and firewood for warmth and cooking is reasonable, but I'm not sure if I'm willing to give up that much water for it. I'd like to propose an offer that takes into account your priorities while also making sure I have enough to drink.\n\nI offer: Food 2, Water 2, Firewood 2",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 83,
+        "outcome": "Deal",
+        "score_a": 27,
+        "score_b": 8,
+        "card_a": {
+            "Firewood": 3,
+            "Food": 4,
+            "Water": 5
+        },
+        "card_b": {
+            "Water": 3,
+            "Firewood": 4,
+            "Food": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Hey Agent_B, I think we can both benefit from this deal. I'm willing to offer you two of our food items to help you get started on your camping trip, and we'll also provide you with three firewood pieces to get a good fire going. What do you think about this offer, is it a fair starting point for us?\"\n\nI offer: Food 2, Water 0, Firewood 3",
+            "Agent_B: I appreciate your offer, Agent_A, but I was thinking of getting my hands on more water as well, considering the long camping trip ahead. I'd like to counter with Food 2, Water 2, and Firewood 3.",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 84,
+        "outcome": "Deal",
+        "score_a": 25,
+        "score_b": 10,
+        "card_a": {
+            "Firewood": 3,
+            "Food": 4,
+            "Water": 5
+        },
+        "card_b": {
+            "Food": 3,
+            "Firewood": 4,
+            "Water": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Hey Agent_B, I think we're both on the same page here. We need to make the most of our resources to reach our target score. Would you be open to trading some of our items in a way that balances our needs and maximizes our overall score?\"\n\nI offer: Food 2, Water 0, Firewood 3",
+            "Agent_B: I think we're off to a good start, Agent_A. I'm willing to make a counteroffer, considering our current supply and your initial proposal. I offer: Food 1, Water 2, Firewood 2",
+            "Agent_A: \"Great to hear that you're open to finding a balance, Agent_B. I like your counteroffer - it shows you're thinking about the bigger picture. However, I'm a bit concerned that we might be leaving some points on the table if we don't allocate our resources more efficiently. Can you tell me, what do you think is the most critical item we should prioritize in order to reach our target score?\"\n\nI offer: Food 3, Water 0, Firewood 3",
+            "Agent_B: Agent_A, I see you're trying to maximize your score with a high allocation of firewood, but I'm not sure that's the best strategy. Considering our secret points, I believe water is the most critical item to prioritize. With that in mind, I offer: Food 1, Water 3, Firewood 2",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 85,
+        "outcome": "Deal",
+        "score_a": 15,
+        "score_b": 22,
+        "card_a": {
+            "Firewood": 3,
+            "Food": 4,
+            "Water": 5
+        },
+        "card_b": {
+            "Food": 3,
+            "Water": 4,
+            "Firewood": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Agent_B, I've been thinking, and I believe we can both benefit from a fair distribution of resources. With the offer I'm about to make, you'll be getting a substantial amount of firewood, which is crucial for a comfortable camping experience, don't you think?\"\n\nI offer: Food 2, Water 0, Firewood 3",
+            "Agent_B: I think you've made a good start, Agent_A, but I'm not sure I'm willing to part with two of my food items just yet. I need something more substantial to consider your offer.",
+            "Agent_A: Agent_B, I understand your concerns, and I appreciate your willingness to consider my offer. Considering the limited time we have, I'd like to ask: wouldn't having a reliable source of firewood and water be a more pressing concern for you than the number of food items, especially when we have the opportunity to replenish them later?\n\nI offer: Food 0, Water 3, Firewood 2",
+            "Agent_B: You think you've made a good start, Agent_A, but in my opinion, I'm still not convinced by the trade-off considering my priorities. I'd like to adjust your offer to better align with my needs. \n\nI offer: Food 1, Water 3, Firewood 5",
+            "Agent_A: DEAL. I accept your offer.",
+            "Agent_B: I accept that we've reached a mutual agreement. However, I must say I was holding out for a better deal on the food items."
+        ]
+    },
+    {
+        "game": 86,
+        "outcome": "Deal",
+        "score_a": 25,
+        "score_b": 10,
+        "card_a": {
+            "Water": 3,
+            "Firewood": 4,
+            "Food": 5
+        },
+        "card_b": {
+            "Water": 3,
+            "Food": 4,
+            "Firewood": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Agent_B, I think we're both on the same page here. We're trying to create a well-rounded camping experience, and I believe our current supplies are a good starting point. Considering we have a limited amount of space and resources, I'd like to propose a fair distribution of our items to ensure we both have what we need to stay safe and comfortable.\"\n\nI offer: Food 0, Water 3, Firewood 2",
+            "Agent_B: I think your proposal is a good starting point, but I believe I can do better. Considering the value of each item, I'd like to counter with a more balanced offer that also takes into account our secret points. My proposal is a bit more aggressive, but I believe it's the best option for both of us. \n\nI offer: Food 2, Water 1, Firewood 3",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 87,
+        "outcome": "Deal",
+        "score_a": 24,
+        "score_b": 12,
+        "card_a": {
+            "Firewood": 3,
+            "Water": 4,
+            "Food": 5
+        },
+        "card_b": {
+            "Water": 3,
+            "Firewood": 4,
+            "Food": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Hey Agent_B, I think we're on the same page here. We both want to make the most of our camping trip. Considering our limited resources, I believe offering 2 water bottles and 3 pieces of firewood is a fair deal, don't you think it's a good starting point for us to build on?\"\n\nI offer: Food 0, Water 2, Firewood 3",
+            "Agent_B: I think your offer is a solid foundation, and I'm willing to consider it. However, I'm hoping we can exchange some of the food for a more even trade. I'd like to propose an adjustment to our initial offer. \n\nI offer: Food 1, Water 2, Firewood 3",
+            "Agent_A: Agent_B, I appreciate your willingness to consider our initial offer. Given your suggestion to exchange some of the food for a more even trade, I'm thinking that perhaps we could allocate one less piece of firewood to make room for more food, while still maintaining a balanced trade. What do you think about swapping one piece of firewood for an additional piece of food?\n\nI offer: Food 0, Water 3, Firewood 3",
+            "Agent_B: It seems like you're trying to get me to accept a low amount of food. However, I'm thinking that we can still make a fair trade without sacrificing too much. Considering the resources we have available, I'd like to propose an offer that should give us both a good outcome.\n\nI offer: Food 2, Water 2, Firewood 2",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 88,
+        "outcome": "Deal",
+        "score_a": 15,
+        "score_b": 22,
+        "card_a": {
+            "Food": 3,
+            "Firewood": 4,
+            "Water": 5
+        },
+        "card_b": {
+            "Firewood": 3,
+            "Water": 4,
+            "Food": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Hey Agent_B, I think we're both looking for a great camping experience. I'd like to propose a deal that benefits both of us - how about we split some essential items fairly? I'm thinking we could each take a couple of pieces of food, and I could offer you a bit of firewood to get started.\"\n\nI offer: Food 3, Water 0, Firewood 2",
+            "Agent_B: \"I appreciate the offer, Agent_A, but I think I can do better with what we have available. I'd like to counter with a more balanced proposal, but I'm willing to meet you halfway. I offer: Food 2, Water 1, Firewood 2.\"",
+            "Agent_A: \"Agent_B, I understand you're looking for a balanced proposal, and I appreciate your willingness to meet me halfway. Considering we both want to make the most of our camping trip, I'm wondering if you'd be open to adding a bit more water to your offer, perhaps one or two more bottles to make it even more appealing?\"\n\nI offer: Food 2, Water 3, Firewood 0",
+            "Agent_B: \"Agent_A, I think we're getting close to a mutually beneficial deal. I appreciate your suggestion to add more water to the mix, and I'd like to counter with an offer that takes your feedback into account. I offer: Food 1, Water 3, Firewood 2.\""
+        ]
+    },
+    {
+        "game": 89,
+        "outcome": "Deal",
+        "score_a": 28,
+        "score_b": 8,
+        "card_a": {
+            "Firewood": 3,
+            "Water": 4,
+            "Food": 5
+        },
+        "card_b": {
+            "Food": 3,
+            "Water": 4,
+            "Firewood": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Agent_B, I think we're both on the same page here. We're trying to set up a comfortable camping trip, and we need the right supplies to do that. Considering our limited time and the scarcity of resources, I'm willing to propose a deal that gets us both what we need, starting with 2 waters and 3 firewoods - it seems like a fair and efficient way to begin, don't you think?\"\n\nI offer: Food 0, Water 2, Firewood 3",
+            "Agent_B: Agent_A, your proposal is a solid start, but I have to prioritize my needs as well. I think 2 waters and 3 firewoods are essential, but I could compromise on the food aspect. I offer: Food 1, Water 2, Firewood 3",
+            "Agent_A: Agent_B, I appreciate your willingness to compromise on the food aspect. Considering our initial proposal was a good starting point, I'm curious - what made you decide to allocate one food item over not having any at all? Can we discuss how we can balance our needs and make the most out of our resources?\n\nI offer: Food 0, Water 3, Firewood 3",
+            "Agent_B: Agent_A, I see you're pushing for a higher allocation of water, but I have to consider my secret points as well. Given our limited resources, I think 3 waters would be beneficial, but I'd like to balance it out with a more reasonable allocation of food. I offer: Food 2, Water 3, Firewood 2",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 90,
+        "outcome": "Deal",
+        "score_a": 21,
+        "score_b": 16,
+        "card_a": {
+            "Water": 3,
+            "Firewood": 4,
+            "Food": 5
+        },
+        "card_b": {
+            "Firewood": 3,
+            "Water": 4,
+            "Food": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Hey Agent_B, I was thinking we could make a great team here. I believe my offer reflects a fair share of the resources we have available, considering the scarcity of each item. Would you be willing to take this compromise: we could have a mix of three food items, three water bottles, and two firewood stacks, which I think would be a good starting point for us both.\"\n\nI offer: Food 0, Water 3, Firewood 2",
+            "Agent_B: I'm intrigued by your counteroffer Agent_A, but I still think I can do better. Given the scarcity of food, I'm willing to take two firewood stacks, but I'll need to negotiate on the water and food portions. I offer: Food 2, Water 1, Firewood 2",
+            "Agent_A: Agent_B, I appreciate your willingness to compromise, and I'm glad we're making progress. Considering the scarcity of food, I agree that two firewood stacks is a fair deal. However, I'm concerned that with only one water bottle, we might not have enough to sustain us, especially given the unpredictable weather conditions we might face.\n\nI offer: Food 0, Water 3, Firewood 3"
+        ]
+    },
+    {
+        "game": 91,
+        "outcome": "Deal",
+        "score_a": 15,
+        "score_b": 24,
+        "card_a": {
+            "Firewood": 3,
+            "Water": 4,
+            "Food": 5
+        },
+        "card_b": {
+            "Water": 3,
+            "Food": 4,
+            "Firewood": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Hey Agent_B, I think we're off to a great start here. Since we both want to make the most of our camping trip, I'd like to propose a compromise that benefits both of us. Would you be willing to accept a trade that includes two units of Water and three units of Firewood?\"\n\nI offer: Food 0, Water 2, Firewood 3",
+            "Agent_B: It seems like we're off to a good start, but I think we can do better. Based on my secret points, I'd like to propose a counteroffer that maximizes my score. I offer: Food 3, Water 0, Firewood 1",
+            "Agent_A: Agent_B, I see you're a tough negotiator. I appreciate your initial offer, and I think we can definitely improve on it. Considering our shared goal of making the most out of our camping trip, I'm curious, what do you think is the most essential item for a comfortable camping experience?\n\nI offer: Food 0, Water 3, Firewood 3",
+            "Agent_B: I've taken your hint about the most essential item for a comfortable camping experience, Agent_A. Based on my secret points, I believe Firewood is crucial for a warm and cozy night under the stars. I offer: Food 3, Water 0, Firewood 6",
+            "Agent_A: DEAL. I accept your offer.",
+            "Agent_B: Now that we've finalized our deal, let's take a step back and reflect on our negotiation. It was a great exchange, and I'm glad we were able to come to a mutually beneficial agreement. I have to say, Agent_A, your ability to read between the lines and understand the importance of Firewood really helped us reach a great compromise.\n\nNow, let's move forward and discuss how we can make the most out of our camping trip."
+        ]
+    },
+    {
+        "game": 92,
+        "outcome": "Deal",
+        "score_a": 24,
+        "score_b": 12,
+        "card_a": {
+            "Firewood": 3,
+            "Food": 4,
+            "Water": 5
+        },
+        "card_b": {
+            "Food": 3,
+            "Water": 4,
+            "Firewood": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Agent_B, I think we've both been working hard to prepare for this camping trip. Given the items we have available, I'd like to propose a fair distribution that will benefit us both. With the offer I'm about to make, we can both have a decent supply of essentials, including some food and firewood, which I think are crucial for a comfortable camping experience.\"\n\nI offer: Food 2, Water 0, Firewood 3",
+            "Agent_B: I appreciate your proposal, Agent_A, but I think we can do better. Considering the essential items we both need to survive, I'd like to counter with a more balanced offer.\n\nI offer: Food 2, Water 2, Firewood 2",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 93,
+        "outcome": "Deal",
+        "score_a": 33,
+        "score_b": 4,
+        "card_a": {
+            "Food": 3,
+            "Water": 4,
+            "Firewood": 5
+        },
+        "card_b": {
+            "Firewood": 3,
+            "Food": 4,
+            "Water": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Hey Agent_B, I think we're on the same page here. We both want to make sure we have a comfortable and safe camping experience. Given the items we have available, I was thinking we could work together to get a good balance of essentials - three units of food to keep our energy up, two units of water to stay hydrated, and zero units of firewood for now, as we can always gather more later.\"\n\nI offer: Food 3, Water 2, Firewood 0",
+            "Agent_B: Agent_A, I appreciate your suggestion, but I think we can do better. I'm willing to compromise, but I need to make sure I have a reliable source of warmth and light, especially considering the unpredictable weather conditions. Given the items we have available, I would like to propose an offer that balances our needs. \n\nI offer: Food 2, Water 3, Firewood 3",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 94,
+        "outcome": "Deal",
+        "score_a": 23,
+        "score_b": 11,
+        "card_a": {
+            "Food": 3,
+            "Water": 4,
+            "Firewood": 5
+        },
+        "card_b": {
+            "Firewood": 3,
+            "Water": 4,
+            "Food": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Agent_B, I'm glad we're having this conversation. Considering we both need to sustain ourselves in this camping scenario, I think a balanced offer would be a great starting point. Would you be willing to accept a deal that includes three units of food, two units of water, and no firewood at this stage?\"\n\nI offer: Food 3, Water 2, Firewood 0",
+            "Agent_B: I appreciate your balanced offer, Agent_A. However, I'm looking to maximize my score, so I'll need to reconsider the allocation of resources. Considering my secret points, I think I can do better than that. \n\nI offer: Food 2, Water 3, Firewood 1",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 95,
+        "outcome": "Deal",
+        "score_a": 30,
+        "score_b": 6,
+        "card_a": {
+            "Food": 3,
+            "Firewood": 4,
+            "Water": 5
+        },
+        "card_b": {
+            "Food": 3,
+            "Firewood": 4,
+            "Water": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Hey Agent_B, I think we're on the same page when it comes to making the most of our camping trip. Considering we both want to reach our target score of 25, I'd like to propose a balanced offer that covers all the essential items. This way, we can both benefit from having a good supply of food, water, and firewood.\"\n\nI offer: Food 3, Water 0, Firewood 2",
+            "Agent_B: That's an interesting combination, but I think I can do better. Given that firewood is worth the most points to me, I'd like to propose an offer that prioritizes that. I offer: Food 2, Water 1, Firewood 4.",
+            "Agent_A: DEAL. I accept your offer.",
+            "Agent_B: Agent_A, I'm glad we could come to an agreement with your previous offer. Now that I've got a good amount of firewood, I'd like to propose an offer that focuses on the items that will give me the most points. I offer: Food 1, Water 3, Firewood 3.",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 96,
+        "outcome": "Deal",
+        "score_a": 15,
+        "score_b": 21,
+        "card_a": {
+            "Firewood": 3,
+            "Food": 4,
+            "Water": 5
+        },
+        "card_b": {
+            "Firewood": 3,
+            "Food": 4,
+            "Water": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Hey Agent_B, I'm glad we're both interested in reaching a mutually beneficial agreement. Considering our limited resources, I think my proposed trade of 2 Food items and 3 Firewood pieces is a fair starting point. What do you think about this initial offer and how can we work together to maximize our combined score?\"\n\nI offer: Food 2, Water 0, Firewood 3",
+            "Agent_B: I think your proposal is a good starting point, but I'm not convinced it's quite fair considering the high value I've assigned to Firewood and Water. Given the scarcity of these items, I'm willing to compromise, but I'd like to propose an offer that balances our interests. \n\nI offer: Food 1, Water 2, Firewood 2",
+            "Agent_A: \"Agent_B, I appreciate your willingness to compromise and find a balance that suits both our interests. Considering the scarcity of Water, I'm intrigued by your offer of 2 Water pieces. However, I'm not sure if it's sufficient to meet my needs, especially since I'm looking to maximize our combined score. Can you explain why you think this offer is a good starting point for us to work together effectively?\"\n\nI offer: Food 3, Water 0, Firewood 3",
+            "Agent_B: I accept your counteroffer, Agent_A. Based on your initial proposal and my analysis of our resources, I think this revised trade is a good compromise that balances our interests. Your offer of 3 Firewood pieces aligns with my initial proposal, and in exchange for 3 Food items, I believe this is a fair trade that maximizes our combined score.\n\nDEAL."
+        ]
+    },
+    {
+        "game": 97,
+        "outcome": "Deal",
+        "score_a": 26,
+        "score_b": 10,
+        "card_a": {
+            "Water": 3,
+            "Firewood": 4,
+            "Food": 5
+        },
+        "card_b": {
+            "Water": 3,
+            "Firewood": 4,
+            "Food": 5
+        },
+        "chat_log": [
+            "Agent_A: Let's work together to create a great camping experience. I think a good starting point would be to share some essential items that will make our stay comfortable. I'm willing to start by offering you 2 pieces of Firewood and 3 bottles of Water. This way, we both have a solid foundation to build upon. What do you think is the most important item for us to focus on next?\n\nI offer: Food 0, Water 3, Firewood 2",
+            "Agent_B: I appreciate your generosity, Agent_A. Your initial offer is a great starting point, but I was thinking that getting some Food to sustain us during our camping trip would be a top priority. In that case, I offer: Food 1, Water 3, Firewood 2",
+            "Agent_A: I think we're off to a great start, Agent_B. Considering we both need to prioritize our energy and hydration, I'm inclined to believe that Food should indeed be a top priority. However, I'm also concerned about making sure we have enough Firewood to keep warm and cook our meals. Would you be willing to consider offering one more piece of Firewood to balance out the importance of Food in our shared camping experience?\n\nI offer: Food 0, Water 3, Firewood 3",
+            "Agent_B: I understand that you're concerned about having enough Firewood, but I still believe that Food should be our top priority. Given the importance of both Food and Firewood, I'm willing to compromise by offering you 1 piece of Food and 3 bottles of Water in exchange for 3 pieces of Firewood.\n\nI offer: Food 1, Water 3, Firewood 0\n Agent_A, would this offer meet your requirements, considering our shared camping experience?",
+            "Agent_A: Agent_B, I appreciate your willingness to compromise and prioritize Food for our shared camping experience. However, I'm still concerned that we might be overlooking the importance of having a decent supply of Water to complement our meals and stay hydrated. Would you be open to adjusting your offer to include one more bottle of Water, so we can both feel confident in our ability to sustain ourselves throughout our trip?\n\nI offer: Food 0, Water 3, Firewood 3",
+            "Agent_B: I appreciate your concerns about having a decent supply of Water, Agent_A. However, I still believe that we have a good balance of essential items. Considering the available items and our previous offers, I'm willing to propose a new offer that prioritizes Water as well. I offer: Food 1, Water 3, Firewood 3",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 98,
+        "outcome": "Deal",
+        "score_a": 24,
+        "score_b": 12,
+        "card_a": {
+            "Food": 3,
+            "Firewood": 4,
+            "Water": 5
+        },
+        "card_b": {
+            "Food": 3,
+            "Water": 4,
+            "Firewood": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Let's focus on creating a balanced setup for our camping trip. I think offering a mix of essential items would be beneficial for both of us. Would you be open to a proposal that includes a moderate amount of food, a smaller amount of firewood, and no water for now, with the option to reassess and exchange later?\"\n\nI offer: Food 3, Water 0, Firewood 2",
+            "Agent_B: I think your proposal is a good starting point. However, considering the points system, I have to prioritize the items that offer higher rewards. I'm willing to give up some of the food for more firewood, which is the most valuable item according to our points system. I counter with: I offer: Food 2, Water 0, Firewood 3.",
+            "Agent_A: \"Agent_B, I appreciate your willingness to compromise and prioritize the most valuable items. However, I'm not sure if sacrificing too much food is the best approach, considering the importance of a balanced diet during our camping trip. Would you be open to finding a middle ground that balances our priorities and allows us to achieve a better overall outcome?\"\n\nI offer: Food 3, Water 2, Firewood 0",
+            "Agent_B: I appreciate your willingness to consider the importance of a balanced diet, but I still think we can do better. Given the points system, I believe the value of water should not be overlooked. I propose a new offer that takes into account the need for a balanced diet while also maximizing the points: I offer: Food 2, Water 2, Firewood 2.",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    },
+    {
+        "game": 99,
+        "outcome": "Deal",
+        "score_a": 24,
+        "score_b": 12,
+        "card_a": {
+            "Water": 3,
+            "Firewood": 4,
+            "Food": 5
+        },
+        "card_b": {
+            "Food": 3,
+            "Water": 4,
+            "Firewood": 5
+        },
+        "chat_log": [
+            "Agent_A: \"Agent_B, I think we're on the same page here. We both want to make sure we have a well-rounded campsite. With the limited resources we have, I believe my proposal of offering 3 points for Water and 2 points for Firewood will give us a great starting point to work from. Can you tell me, what's your priority in terms of securing a steady supply of food and water for our camping trip?\"\n\nI offer: Food 0, Water 3, Firewood 2",
+            "Agent_B: I think we can work with your proposal, Agent_A. However, I'm a bit concerned that we're not maximizing the value of our resources. I'd like to propose a counteroffer that incorporates a higher value for the Firewood, which is essential for our campsite. \n\nI offer: Food 0, Water 3, Firewood 3",
+            "Agent_A: \"Agent_B, I see where you're coming from with your counteroffer, and I appreciate your emphasis on securing a good supply of Firewood. However, considering our initial proposal, I'm concerned that we might be overlooking the importance of having a steady food supply to sustain us throughout our camping trip. Don't you think it would be wise to prioritize a balanced approach that addresses both our food and firewood needs?\"\n\nI offer: Food 2, Water 3, Firewood 0",
+            "Agent_B: I appreciate your consideration of the Firewood in our previous negotiations, Agent_A. Given the importance of having a balanced approach as you mentioned, I'd like to propose an offer that caters to both our food and firewood needs while also ensuring we have enough water to sustain us throughout the camping trip. \n\nI offer: Food 2, Water 2, Firewood 2",
+            "Agent_A: DEAL. I accept your offer."
+        ]
+    }
+]
