@@ -1,6 +1,6 @@
 # AToM-Net: Agentic Theory of Mind Network
 
-AToM-Net is a cognitive architecture for multi-issue bargaining (CaSiNo environment) that adapts the EMO (Estimation, Modeling, Operation) framework -- originally designed for social deduction games -- to imperfect-information negotiation. It introduces an Economic Consistency Validator to catch deception signals in opponent behavior and uses Reflexion-based inter-game learning to improve strategy across repeated negotiations.
+AToM-Net is a cognitive architecture for multi-issue bargaining (CaSiNo environment) that adapts the EMO (Explicit Modeling of Opponents) framework -- originally designed for social deduction games -- to imperfect-information negotiation. It introduces an Economic Consistency Validator to catch deception signals in opponent behavior and uses Reflexion-based inter-game learning to improve strategy across repeated negotiations.
 
 ## Table of Contents
 
