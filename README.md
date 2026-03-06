@@ -1,6 +1,7 @@
 # AToM-Net: Agentic Theory of Mind Network
 
 AToM-Net is a cognitive architecture for multi-issue bargaining (CaSiNo environment) that adapts the EMO (Explicit Modeling of Opponents) framework -- originally designed for social deduction games -- to imperfect-information negotiation. It introduces an Economic Consistency Validator to catch deception signals in opponent behavior and uses Reflexion-based inter-game learning to improve strategy across repeated negotiations.
+<img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/41d2c71a-97f8-4ba9-9ae5-e9c914808b29" />
 
 ## Table of Contents
 
@@ -207,9 +208,11 @@ The likelihoods are fixed priors:
 | offer_neutral     | 0.5                 | 0.5                 |
 | reject_generous   | 0.1                 | 0.9                 |
 
-**Expected Utility:**
+**Expected Utility**
 
-$$EU(a) = \sum_{\theta} B_t(\theta) \cdot \mathbb{1}[\text{opp\_score}(a, \theta) \geq RV_\theta] \cdot U_{self}(a)$$
+$$
+EU(a) = \sum_{\theta \in \Theta} B_t(\theta) \cdot \mathbb{1}[opp(a,\theta) \ge RV_{\theta}] \cdot U_{self}(a)
+$$
 
 where RV_theta is the opponent's reservation value under type theta.
 
