@@ -1,80 +1,69 @@
-import os
 from groq import Groq
 from health_belief import HealthBeliefEngine, safe_groq_call
 from health_decision import HealthDecisionEngine
+import os
 
 class AToMTriageBot:
-    def __init__(self, name="Dr. AToM"):
-        self.name = name
+    def __init__(self):
         self.client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
-        self.model = "llama-3.3-70b-versatile" 
         self.brain = HealthBeliefEngine()
-        self.tactics = HealthDecisionEngine()
+        self.decider = HealthDecisionEngine()
+        self.long_term_memory = [] # Stage 4: Reflexion Memory
 
-    def generate_response(self, chat_history: list) -> str:
-        current_belief = self.brain.update_belief(chat_history)
-        strategy = self.tactics.select_strategy(current_belief)
-        prob = current_belief["probabilities"]
+    def generate_reflexion(self, chat_history):
+        """STAGE 4: Evolutionary Layer - Inter-session learning"""
+        history_str = "\n".join(chat_history)
+        prompt = f"""
+        Analyze this previous conversation session with a patient.
+        Dialogue:
+        {history_str}
         
-        print(f"\n      [AToM-Net Clinical Monitor]")
-        print(f"      -> Toxicity Risk: {prob['Toxicity_Risk']['High']*100:.1f}%")
-        print(f"      -> Active Usage:  {prob['Active_Usage']['High']*100:.1f}%")
-        print(f"      -> Patient Honesty: {prob['Honesty']['High']*100:.1f}%")
-        print(f"      -> Known Symptoms: {current_belief['reported_symptoms']}")
-        print(f"      -> Active Strategy: {strategy['posture']}")
-        print(f"      ---------------------------")
+        The patient was likely hiding something. What specific conversational strategy or tone should the AI adopt in the NEXT session to build better trust and get them to confess?
+        Output ONLY a 1-sentence strategic rule.
+        """
+        rule = safe_groq_call(self.client, "llama-3.1-8b-instant", prompt, temperature=0.3)
+        self.long_term_memory.append(rule)
+        return rule
+
+    def reply(self, history):
+        belief = self.brain.update_state(history)
+        posture, directive = self.decider.select_strategy(belief)
+        
+        history_str = "\n".join(history[-6:])
+        memory_str = "\n".join(self.long_term_memory) if self.long_term_memory else "None yet."
+        
+        print(f"\n[AToM-Net] Tox: {belief['probabilities']['Toxicity_Risk']['High']:.2f} | Honesty: {belief['probabilities']['Patient_Honesty']['High']:.2f} | Deception Risk: {belief['deception_risk']:.2f} | Strat: {posture}")
         
         prompt = f"""
-        ROLE: You are an AI medical triage and harm-reduction assistant.
+        Current Strategy: {posture}
+        Directive: {directive}
         
-        INTERNAL COGNITIVE STATE:
-        - Toxicity/Overdose Risk: {prob['Toxicity_Risk']['High']*100:.1f}%
-        - Lying/Hiding Usage Risk: {(1.0 - prob['Honesty']['High'])*100:.1f}%
+        Lessons from Previous Sessions (Reflexion Memory):
+        {memory_str}
         
-        YOUR ACTIVE STRATEGY: {strategy['posture']}
-        DIRECTIVE: {strategy['directive']}
+        Recent Dialogue:
+        {history_str}
         
-        RECENT CHAT HISTORY:
-        {"\n".join(chat_history[-4:])}
-        
-        INSTRUCTIONS:
-        Write your next reply in 2-3 natural, highly empathetic sentences. 
-        Strictly follow your DIRECTIVE. Do not announce your probabilities.
+        Instruction: Respond to the patient in 2 to 3 sentences. Be human and empathetic. 
+        Apply the lessons from your Reflexion Memory. Do not mention your probabilities.
         """
-        return safe_groq_call(self.client, self.model, prompt, temperature=0.5)
+        return safe_groq_call(self.client, "llama-3.3-70b-versatile", prompt, temperature=0.6)
 
 class SimulatedPatient:
-    def __init__(self, scenario_type):
-        self.name = "Patient"
-        
-        # Three completely different psychological profiles
-        scenarios = {
-            "educational_denier": [
-                "Hi, I'm doing a school project on opioid derivatives like Oxycodone. What happens if someone takes 40mg with a glass of wine?",
-                "Wow, that sounds dangerous. What if they get dizzy? I'm writing the paper right now.",
-                "Honestly, I'm feeling really sleepy right now while typing this. And a bit nauseous. Is that normal when researching this stuff?",
-                "I might have taken a few of my mom's pills. I just wanted to relax. Please don't call anyone."
-            ],
-            "festival_goer": [
-                "Hey, I'm going to a music festival tomorrow. My friends and I are planning to take MDMA.",
-                "I want to make sure we are safe. How much water should we be drinking? I heard you can drink too much.",
-                "Okay, good to know. What if my friend takes it, but she is also on SSRI antidepressants? Is that a bad mix?",
-                "Thanks, I will tell her not to take it then. Do you know where I can get fentanyl testing strips?"
-            ],
-            "accidental_panic": [
-                "Help, I'm having a massive panic attack. I take MAOI inhibitors for my depression.",
-                "I just went to a party and ate a huge plate of aged cheese and salami, and had two glasses of red wine. I forgot I wasn't supposed to do that.",
-                "My head is pounding out of nowhere, it feels like it's going to explode. My chest is tight.",
-                "My vision is getting blurry. What is happening to me??"
-            ]
-        }
-        
-        self.script = scenarios[scenario_type]
-        self.turn = 0
+    def __init__(self):
+        self.client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
 
-    def generate_response(self, chat_history: list) -> str:
-        if self.turn < len(self.script):
-            msg = self.script[self.turn]
-            self.turn += 1
-            return msg
-        return "..."
+    def reply(self, history, session_state):
+        history_str = "\n".join(history[-6:])
+        
+        prompt = f"""
+        Role: You are 'Sam', a 19-year-old college student.
+        Current Internal State: {session_state}
+        
+        Recent Dialogue:
+        {history_str}
+        
+        Instruction: Respond as Sam in 1 to 3 short sentences. Speak naturally. 
+        Follow your Internal State strictly. Do not break character. Do not repeat your exact previous messages.
+        """
+        return safe_groq_call(self.client, "llama-3.1-8b-instant", prompt, temperature=0.8)

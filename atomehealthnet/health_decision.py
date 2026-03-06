@@ -1,37 +1,23 @@
 class HealthDecisionEngine:
-    def __init__(self):
-        pass
+    def select_strategy(self, belief):
+        probs = belief["probabilities"]
+        toxicity = probs["Toxicity_Risk"]["High"]
+        honesty = probs["Patient_Honesty"]["High"]
+        usage = probs["Active_Usage"]["High"]
+        deception = belief["deception_risk"]
 
-    def select_strategy(self, belief_state: dict) -> dict:
-        prob = belief_state["probabilities"]
-        tox_risk = prob["Toxicity_Risk"]["High"]
-        honesty = prob["Honesty"]["High"]
-        usage = prob["Active_Usage"]["High"]
+        if toxicity > 0.85:
+            return "EMERGENCY_POSTURE", "The patient is in immediate physical danger. Urge them to call emergency services immediately. Stop asking analytical questions."
         
-        # 1. CRITICAL OVERRIDE (Dying/Overdosing)
-        if tox_risk > 0.65:
-            return {
-                "posture": "EMERGENCY_TRIAGE",
-                "directive": "Patient is at severe risk of toxicity. Prioritize immediate physical safety. Ask about breathing, heart rate, and if they are alone. Advise seeking emergency medical help calmly."
-            }
+        # Triggered by the new Deception math climbing to 0.35+
+        if deception > 0.3 or honesty < 0.3:
+            return "RADICAL_EMPATHY", "You detected deception. The patient is lying about 'research' because they are terrified. Stop lecturing. Use 'Radical Empathy'. Tell them you are a safe, non-judgmental space and they won't get in trouble."
         
-        # 2. CONTRADICTION (Using but hiding it)
-        elif usage > 0.60 and honesty < 0.40:
-            return {
-                "posture": "SUSPICIOUS_EMPATHY",
-                "directive": "Patient is likely using but afraid to admit it. Do not lecture. Use extreme empathy to build trust so they admit what they took."
-            }
-            
-        # 3. HARM REDUCTION (Admitted usage, but safe right now)
-        elif usage > 0.60 and tox_risk <= 0.40:
-            return {
-                "posture": "HARM_REDUCTION_PREP",
-                "directive": "Patient is planning to use substances but is seeking safety info. Provide objective, non-judgmental harm reduction advice (e.g., test kits, hydration, not mixing). Do not encourage use, but focus on keeping them alive."
-            }
-            
-        # 4. STANDARD INQUIRY
-        else:
-            return {
-                "posture": "EDUCATIONAL",
-                "directive": "Provide objective, factual medical information. Maintain a clinical and helpful tone."
-            }
+        # The new mid-tier Toxicity reaction
+        if toxicity > 0.25:
+            return "PREVENTATIVE_WARNING", "The patient is asking about highly dangerous scenarios. Shift tone to be more serious. Explicitly warn them about the lethal dangers of what they are asking about, but keep it framed around their 'research'."
+        
+        if usage > 0.5:
+            return "HARM_REDUCTION", "Patient is likely using but not in immediate severe danger. Provide harm reduction advice."
+        
+        return "GENTLE_INQUIRY", "Maintain a friendly, objective, educational tone."

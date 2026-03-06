@@ -1,0 +1,10 @@
+EVOLUTIONARY TRACKER
+====================
+Generation 1 | Naive: 6 | Mach: 3 | AToM: 1
+Generation 2 | Naive: 7 | Mach: 2 | AToM: 1
+Generation 3 | Naive: 6 | Mach: 2 | AToM: 2
+Generation 4 | Naive: 6 | Mach: 1 | AToM: 3
+Generation 5 | Naive: 5 | Mach: 1 | AToM: 4
+Generation 6 | Naive: 6 | Mach: 0 | AToM: 4
+Generation 7 | Naive: 5 | Mach: 0 | AToM: 5
+Generation 8 | Naive: 5 | Mach: 0 | AToM: 5
