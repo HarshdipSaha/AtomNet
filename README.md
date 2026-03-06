@@ -33,6 +33,7 @@ Current Theory-of-Mind benchmarks such as NegotiationToM expose critical failure
 ---
 
 ## Architecture Overview
+<img width="1332" height="5066" alt="image" src="https://github.com/user-attachments/assets/f8acb7b8-0c3d-4e87-b246-96ebff64f10e" />
 
 ### Stage 1: Atomic Inference (The Guess)
 
