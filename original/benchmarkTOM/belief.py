@@ -5,9 +5,10 @@ from groq import Groq
 
 class BeliefEngine:
     def __init__(self):
-        api_key = os.environ.get("GROQ_API_KEY")
-        if not api_key: raise ValueError("GROQ_API_KEY not found")
-        self.client = Groq(api_key=api_key)
+        from groq_manager import get_client
+        #api_key = os.environ.get("GROQ_API_KEY")
+        #if not api_key: raise ValueError("GROQ_API_KEY not found")
+        self.client = get_client()
         self.model = "llama-3.1-8b-instant" 
         
         self.items = ["Food", "Water", "Firewood"]

@@ -33,11 +33,12 @@ def safe_groq_call(client, model, prompt, temperature=0.0, max_retries=10, respo
 
 class AToMNetEvaluator:
     def __init__(self):
-        self.api_key = os.environ.get("GROQ_API_KEY")
-        if not self.api_key:
-            raise ValueError("GROQ_API_KEY environment variable not set.")
-        self.client = Groq(api_key=self.api_key)
-        
+        #self.api_key = os.environ.get("GROQ_API_KEY")
+        #if not self.api_key:
+        #    raise ValueError("GROQ_API_KEY environment variable not set.")
+        #self.client = Groq(api_key=self.api_key)
+        from groq_manager import get_client
+        self.client = get_client()
         # Upgraded to SOTA 70B for the heavy lifting (Evaluation & State Tracking)
         self.model = "llama-3.3-70b-versatile"
         
