@@ -1,0 +1,22 @@
+=== LIVE AToM-Net BENCHMARK SCORES ===
+Progress: 137 / 2380 instances processed (5.8%)
+
+--- TURN-LEVEL EXACT MATCHES ---
+Agent 1 Desire: 43.07%
+Agent 1 Belief: 21.17%
+Agent 2 Desire: 52.55%
+Agent 2 Belief: 18.98%
+
+--- THE "ALL" SCORE (The Ultimate Metric) ---
+All Score (Desire+Belief+Intention Perfect Match): 4.38%
+
+--- CONVERSATION CONSISTENCY ---
+Unique Dialogues Tracked: 24
+Desire Consistency: 0.00%
+Belief Consistency: 0.00%
+
+--- UTTERANCE INTENTION ---
+Micro F1: 44.05%
+Macro F1: 32.35%
+======================================
+* This file updates automatically after every dialogue turn *
