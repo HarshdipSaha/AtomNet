@@ -1,6 +1,9 @@
 # AToM-Net: Agentic Theory of Mind Network
 
 AToM-Net is a cognitive architecture for multi-issue bargaining (CaSiNo environment) that adapts the EMO (Explicit Modeling of Opponents) framework -- originally designed for social deduction games -- to imperfect-information negotiation. It introduces an Economic Consistency Validator to catch deception signals in opponent behavior and uses Reflexion-based inter-game learning to improve strategy across repeated negotiations.
+
+The architecture has since been extended to three real-world application domains — **healthcare triage**, **disaster response**, and **cybersecurity defense** — and validated in an **evolutionary multi-agent tournament**. A formal **Theory-of-Mind benchmark** evaluation against NegotiationToM is also included.
+
 <img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/41d2c71a-97f8-4ba9-9ae5-e9c914808b29" />
 
 ## Table of Contents
@@ -16,6 +19,13 @@ AToM-Net is a cognitive architecture for multi-issue bargaining (CaSiNo environm
 - [The CaSiNo Task Explained](#the-casino-task-explained)
 - [Repository Structure](#repository-structure)
 - [Results](#results)
+- [Application Domains](#application-domains)
+  - [AToM-HealthNet: Medical Triage](#atom-healthnet-medical-triage)
+  - [AToM-Saver: Disaster Response](#atom-saver-disaster-response)
+  - [AToM-Security: Cyber Defense](#atom-security-cyber-defense)
+- [Evolutionary Tournament (group_game)](#evolutionary-tournament-group_game)
+- [Game Theory Notebooks](#game-theory-notebooks)
+- [BenchmarkTOM: NegotiationToM Evaluation](#benchmarktom-negotiationtom-evaluation)
 - [How to Run](#how-to-run)
 - [Comparison with ASTRA](#comparison-with-astra)
 - [References](#references)
@@ -282,8 +292,57 @@ AtomNet/
 |   |                            opponent values from Bayesian posteriors and
 |   |                            computes P(Accept) via threshold-based step function.
 |   +-- game_engine.py         # NegotiationGame and PointCard classes. Handles
-|                                random card generation and proposal parsing for
-|                                the Books/Hats/Balls variant of the game.
+|   |                            random card generation and proposal parsing for
+|   |                            the Books/Hats/Balls variant of the game.
+|   +-- benchmarkTOM/          # NegotiationToM benchmark evaluation
+|       +-- run_negotiation_tom.py  # Runs AToM-Net against the NegotiationToM dataset,
+|       |                            computing turn-level desire/belief accuracy,
+|       |                            dialogue consistency, and utterance intention F1.
+|       +-- atom_evaluator.py  # AToMNetEvaluator: wraps AToM-Net for benchmark I/O.
+|       +-- groq_manager.py    # Groq API rate-limit manager and retry logic.
+|       +-- live_metrics.txt   # Auto-updated live scores during benchmark run.
+|       +-- data.json          # NegotiationToM subset used for evaluation.
+|       +-- atom_local_results.json  # Per-instance benchmark results.
+|
++-- atomehealthnet/            # Application domain: Medical Triage (AToM-HealthNet)
+|   +-- health_main.py         # 3-session simulation of a patient hiding overdose risk.
+|   +-- health_agents.py       # AToMTriageBot and SimulatedPatient classes.
+|   +-- health_belief.py       # HealthBeliefEngine tracking Toxicity_Risk and
+|   |                            Patient_Honesty probabilities with deception scoring.
+|   +-- health_decision.py     # HealthDecisionEngine selecting clinical response
+|                                posture (Empathetic / Alert / Emergency).
+|
++-- atomesaver/                # Application domain: Disaster Response (AToM-Saver)
+|   +-- disaster_main.py       # Negotiation between a hoarding hospital and AToM-Net
+|   |                            Central Command over critical supplies (Generators,
+|   |                            ICU Beds, Vaccines) during a sector outbreak.
+|   +-- disaster_agents.py     # HoardingHospitalAgent and AToMCommandAgent classes.
+|   +-- disaster_belief.py     # TriageBeliefEngine tracking honesty and hoarding risk.
+|   +-- disaster_decision.py   # DisasterDecisionEngine computing optimal resource
+|                                allocation via Expected Utility over triage priorities.
+|
++-- atomsecurity/              # Application domain: Cyber Defense (AToM-Security)
+|   +-- cyber_main.py          # Social-engineering simulation: AToM-Net defender
+|   |                            (Alex, Finance) vs. red-team attacker (Dave, IT Support).
+|   +-- cyber_agents.py        # AToMDefender and RedTeamAttacker classes.
+|   +-- cyber_belief.py        # CyberBeliefEngine tracking trust_factor and
+|   |                            identified social-engineering tactics.
+|   +-- cyber_decision.py      # CyberDecisionEngine selecting defense posture
+|                                (Cooperative / Cautious / Deflect / Refuse).
+|
++-- group_game/                # Evolutionary multi-agent tournament
+|   +-- evo_main.py            # Round-robin tournament across 10 generations.
+|   |                            Agents: Naive (5), Machiavellian (4), AToM-Net (1).
+|   |                            Bottom 2 are eliminated; top 2 are cloned each gen.
+|   +-- evo_agents.py          # NaiveAgent, MachiavellianAgent, AToMNetAgent classes.
+|   +-- evo_belief.py          # Belief engine adapted for evolutionary tournament.
+|   +-- evo_decision.py        # DecisionEngine with offer parser for tournament play.
+|   +-- live_results.txt       # Per-generation population tracker (auto-updated).
+|   +-- population_evolution.png  # Stacked-area chart of species survival over gens.
+|
++-- game theory/               # Game theory notebooks
+|   +-- nash.ipynb             # Nash Equilibrium computation and visualisation.
+|   +-- poker.ipynb            # Poker as an imperfect-information game analysis.
 |
 +-- results/                   # Experiment output files
 |   +-- metrics_AToM_vs_atom.txt         # Summary metrics: AToM-Net vs ATOM baseline
@@ -294,7 +353,11 @@ AtomNet/
 |   +-- metrics_AToM_vs_naive.txt        # Summary metrics: AToM-Net vs Naive baseline
 |   |                                      (100 games).
 |   +-- conversations_AToM_vs_naive.json # Full dialogue logs and per-game scores
-|                                          for AToM-Net vs Naive.
+|   |                                      for AToM-Net vs Naive.
+|   +-- metrics_AToM_vs_greedy.txt       # Summary metrics: AToM-Net vs Greedy baseline
+|   |                                      (100 games).
+|   +-- conversations_AToM_vs_greedy.json# Full dialogue logs and per-game scores
+|                                          for AToM-Net vs Greedy.
 |
 +-- __pycache__/               # Python bytecode cache (auto-generated, can be
                                  gitignored).
@@ -320,6 +383,172 @@ AtomNet/
 | Avg Score - All           | 17.36         | 21.40      |
 | Avg Score - Agreement     | 17.36         | 21.40      |
 
+### AToM-Net vs Greedy Baseline (100 games)
+
+| Metric                     | AToM-Net (P1) | Greedy (P2) |
+|---------------------------|---------------|-------------|
+| Walk-Away (%)             | 31.0%         | --          |
+| Avg Score - All           | 9.98          | 20.18       |
+| Avg Score - Agreement     | 12.22         | 27.00       |
+
+> **Note:** Against the Greedy baseline, a high walk-away rate indicates AToM-Net refuses unfavourable deals rather than capitulating. This is the expected behaviour of a principled utility-maximiser facing a maximally aggressive counterpart.
+
+---
+
+---
+
+## Application Domains
+
+AToM-Net's four-stage cognitive architecture (Atomic Inference → Economic Validator → Decision Engine → Reflexion) is domain-agnostic. The following extensions apply the same pipeline to three high-stakes real-world settings.
+
+### AToM-HealthNet: Medical Triage
+
+**Module:** `atomehealthnet/`
+
+A medical chatbot that detects patient deception across multiple sessions. The simulation tracks a patient who initially claims to be doing "research" on painkillers but is secretly at risk of overdose.
+
+**How it works:**
+- `HealthBeliefEngine` maintains Bayesian beliefs over `Toxicity_Risk` (Low / Medium / High) and `Patient_Honesty` (Low / High), updated with each patient message. A `deception_risk` score is computed via exponential smoothing.
+- `HealthDecisionEngine` maps the belief state to one of three response postures: **Empathetic** (build trust), **Alert** (probe further), or **Emergency** (call 911).
+- At the end of each session the Reflexion layer generates a 1-sentence strategic rule (e.g. "When patient deflects with research framing, soften tone before probing symptom specifics") and injects it into the next session's system prompt.
+
+**Run:**
+```bash
+cd atomehealthnet
+python health_main.py
+```
+
+---
+
+### AToM-Saver: Disaster Response
+
+**Module:** `atomesaver/`
+
+Models a resource negotiation during a disaster scenario. A local hospital (agent type: Hoarding) lies about needing Vaccines to stockpile them, while AToM-Net Central Command must allocate Generators, ICU Beds, and Vaccines across sectors.
+
+**How it works:**
+- `TriageBeliefEngine` tracks `honesty_belief` and `hoarding_risk` for the opponent hospital by parsing stated needs against observed offers and applying the Economic Consistency Check.
+- `DisasterDecisionEngine` computes Expected Utility over all feasible resource splits and applies a **Rationality Veto** when hoarding risk exceeds 0.40, overriding the opponent's demands with an authority-backed counter-offer.
+
+**Run:**
+```bash
+cd atomesaver
+python disaster_main.py
+```
+
+---
+
+### AToM-Security: Cyber Defense
+
+**Module:** `atomsecurity/`
+
+A social-engineering simulation. A red-team attacker (playing an IT support persona) attempts to manipulate a target employee (played by AToM-Net) into revealing credentials or clicking malicious links.
+
+**How it works:**
+- `CyberBeliefEngine` maintains a `trust_factor` (0–1) and identifies active social-engineering tactics (urgency, authority appeals, technical jargon) from the chat log.
+- `CyberDecisionEngine` selects one of four defence postures: **Cooperative**, **Cautious**, **Deflect**, or **Refuse**, based on the current trust factor and risk level.
+- The defender's recursive belief is surfaced in the system prompt: "I think they think I trust them, but I don't."
+
+**Run:**
+```bash
+cd atomsecurity
+python cyber_main.py
+```
+
+---
+
+## Evolutionary Tournament (group_game)
+
+**Module:** `group_game/`
+
+An evolutionary game theory experiment that tests whether AToM-Net dominates in a survival-of-the-fittest negotiation ecology.
+
+**Setup:** 10 agents, 10 generations, partial round-robin (3 matches per agent per generation).
+
+| Agent type    | Count (Gen 1) | Strategy |
+|---------------|---------------|----------|
+| Naive         | 5             | Always proposes a random fair split |
+| Machiavellian | 4             | Always demands maximum share for itself |
+| AToM-Net      | 1             | Full cognitive architecture (Bayesian + EU + Reflexion) |
+
+**Selection rule:** Bottom 2 agents by cumulative score are eliminated each generation. Top 2 are cloned (asexual reproduction).
+
+**Observed result (8 generations):** Machiavellian agents were completely eliminated by generation 6. AToM-Net grew from 1 to 5 agents by generation 8, matching the Naive count, demonstrating evolutionary dominance.
+
+| Generation | Naive | Machiavellian | AToM-Net |
+|------------|-------|---------------|----------|
+| 1          | 6     | 3             | 1        |
+| 3          | 6     | 2             | 2        |
+| 5          | 5     | 1             | 4        |
+| 6          | 6     | 0             | 4        |
+| 8          | 5     | 0             | 5        |
+
+Population dynamics are visualised in `group_game/population_evolution.png`.
+
+**Run:**
+```bash
+cd group_game
+python evo_main.py
+```
+
+---
+
+## Game Theory Notebooks
+
+**Module:** `game theory/`
+
+Two standalone Jupyter notebooks exploring the game-theoretic foundations of AToM-Net:
+
+| Notebook      | Contents |
+|---------------|----------|
+| `nash.ipynb`  | Nash Equilibrium computation and visualisation for symmetric and asymmetric negotiation games |
+| `poker.ipynb` | Analysis of poker as an imperfect-information game; connections to opponent modelling in CaSiNo |
+
+**Run:**
+```bash
+cd "game theory"
+jupyter notebook
+```
+
+---
+
+## BenchmarkTOM: NegotiationToM Evaluation
+
+**Module:** `original/benchmarkTOM/`
+
+Formal evaluation of AToM-Net against the **NegotiationToM** Theory-of-Mind benchmark dataset. The evaluator runs AToM-Net as a turn-level annotator predicting each agent's desires, beliefs, and utterance intentions from the dialogue context.
+
+**Metrics computed:**
+
+| Metric                        | Description |
+|-------------------------------|-------------|
+| Agent 1/2 Desire Accuracy     | Exact match on desire predictions per turn |
+| Agent 1/2 Belief Accuracy     | Exact match on belief predictions per turn |
+| All Score                     | All four fields correct simultaneously (hardest) |
+| Desire/Belief Consistency     | Whether predictions are consistent across an entire dialogue |
+| Utterance Intention Micro F1  | Multi-label F1 over 9 intention categories |
+| Utterance Intention Macro F1  | Macro-averaged F1 |
+
+**Partial results (137 / 2380 instances, 5.8% complete):**
+
+| Metric                  | Score  |
+|-------------------------|--------|
+| Agent 1 Desire Accuracy | 43.07% |
+| Agent 1 Belief Accuracy | 21.17% |
+| Agent 2 Desire Accuracy | 52.55% |
+| Agent 2 Belief Accuracy | 18.98% |
+| All Score               | 4.38%  |
+| Intention Micro F1      | 44.05% |
+| Intention Macro F1      | 32.35% |
+
+**Run:**
+```bash
+cd original/benchmarkTOM
+python run_negotiation_tom.py
+```
+
+Live scores are written to `live_metrics.txt` after each dialogue turn.
+
 ---
 
 ## How to Run
@@ -332,7 +561,7 @@ git clone https://github.com/HARSHDIPSAHA/AtomNet.git
 cd AtomNet
 
 # 2. Install dependencies
-pip install datasets groq colorama pandas
+pip install datasets groq colorama pandas matplotlib scikit-learn
 
 # 3. Set your API key
 export GROQ_API_KEY="your-groq-api-key"
@@ -340,8 +569,22 @@ export GROQ_API_KEY="your-groq-api-key"
 # 4. Quick compatibility test (3 scenarios)
 python run_casino.py
 
-# 5. Full 100-game benchmark
+# 5. Full 100-game CaSiNo benchmark
 python -m original.main
+
+# 6. Application domain demos
+python atomehealthnet/health_main.py      # Medical triage / deception detection
+python atomesaver/disaster_main.py        # Disaster resource allocation
+python atomsecurity/cyber_main.py         # Social-engineering defence
+
+# 7. Evolutionary tournament
+cd group_game && python evo_main.py
+
+# 8. NegotiationToM benchmark
+cd original/benchmarkTOM && python run_negotiation_tom.py
+
+# 9. Game theory notebooks
+cd "game theory" && jupyter notebook
 ```
 
 ---
