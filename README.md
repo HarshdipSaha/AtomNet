@@ -31,6 +31,7 @@ The architecture has since been extended to three real-world application domains
 - [References](#references)
 
 ---
+<img width="980" height="687" alt="image" src="https://github.com/user-attachments/assets/cf2a7a72-4103-4a25-a4f3-ded2cb4badd4" />
 
 ## Motivation
 
