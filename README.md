@@ -368,29 +368,64 @@ AtomNet/
 
 ## Results
 
-### AToM-Net vs Naive Baseline (100 games)
+### AToM-Net vs Naive LLM Baseline (100 Games)
 
-| Metric                     | AToM-Net (P1) | Naive (P2) |
-|---------------------------|---------------|------------|
-| Walk-Away (%)             | 1.0%          | --         |
-| Avg Score - All           | 23.30         | 12.53      |
-| Avg Score - Agreement     | 23.48         | 12.61      |
+| Metric | AToM-Net (P1) | Naive LLM (P2) |
+|---|---|---|
+| Walk-Away (%) | 0.0% | -- |
+| Avg Score - All | 19.14 | 18.43 |
+| Avg Score - Agreement | 19.14 | 18.43 |
 
-### AToM-Net vs ATOM Baseline (100 games)
+### AToM-Net vs Greedy Adversary (100 Games)
 
-| Metric                     | AToM-Net (P1) | ATOM (P2)  |
-|---------------------------|---------------|------------|
-| Walk-Away (%)             | 0.0%          | --         |
-| Avg Score - All           | 17.36         | 21.40      |
-| Avg Score - Agreement     | 17.36         | 21.40      |
+| Metric | AToM-Net (P1) | Greedy Adversary (P2) |
+|---|---|---|
+| Walk-Away (%) | 8.6% | -- |
+| Avg Score - All | 11.10 | 25.11 |
+| Avg Score - Agreement | 12.14 | 27.47 |
 
-### AToM-Net vs Greedy Baseline (100 games)
+### AToM-Net Self-Play (100 Games)
 
-| Metric                     | AToM-Net (P1) | Greedy (P2) |
-|---------------------------|---------------|-------------|
-| Walk-Away (%)             | 31.0%         | --          |
-| Avg Score - All           | 9.98          | 20.18       |
-| Avg Score - Agreement     | 12.22         | 27.00       |
+| Metric | AToM-Net (P1) | AToM-Net (P2) |
+|---|---|---|
+| Walk-Away (%) | 0.0% | -- |
+| Avg Score - All | 18.14 | 20.44 |
+| Avg Score - Agreement | 18.14 | 20.44 |
+
+---
+
+### Theory of Mind (ToM) Tracking Performance on NegotiationToM
+
+| Metric | Scope / Variant | Score (%) |
+|---|---|---|
+| Desire Tracking | Agent 1 (per-turn) | 62.45 |
+| Desire Tracking | Agent 2 (per-turn) | 65.38 |
+| Belief Tracking | Per-turn consistency | 61.00 |
+| Strict ToM (All) | Desire + Belief + Intention | 16.29 |
+| Desire Consistency | Full dialogue (118 trajectories) | 11.23 |
+| Belief Consistency | Full dialogue (118 trajectories) | 7.68 |
+| Utterance Intention | Micro F1 | 100.00 |
+| Utterance Intention | Macro F1 | 21.11 |
+
+---
+
+### Ablation Study: Impact of Neuro-Symbolic Components
+
+| Configuration | Average Utility | $\Delta$ Utility | Performance Drop (%) |
+|---|---|---|---|
+| Full AToM-Net | 23.30 | -- | -- |
+| w/o Reflexion Memory | 21.15 | -2.15 | 9.2 |
+| w/o Economic Validator | 16.40 | -6.90 | 29.6 |
+
+---
+
+### Summary of Strategic Performance
+
+| Opponent | P1 Score | P2 Score | Walk-Away |
+|---|---|---|---|
+| Self-Play (AToM vs AToM) | 18.14 | 20.44 | 0.0% |
+| AToM-Net vs Naive LLM | 19.14 | 18.43 | 0.0% |
+| AToM-Net vs Greedy Adversary | 11.10 | 25.11 | 8.6% |
 
 > **Note:** Against the Greedy baseline, a high walk-away rate indicates AToM-Net refuses unfavourable deals rather than capitulating. This is the expected behaviour of a principled utility-maximiser facing a maximally aggressive counterpart.
 
