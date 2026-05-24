@@ -1,21 +1,6 @@
-=== LIVE AToM-Net BENCHMARK SCORES (README results) ===
+=== LIVE AToM-Net BENCHMARK SCORES  ===
+Progress: 2380 / 2380 instances processed 
 
--- AToM-Net vs Naive LLM Baseline (100 Games) --
-Walk-Away (%)        : AToM-Net (P1) = 0.0% | Naive LLM (P2) = --
-Avg Score - All      : AToM-Net = 19.14 | Naive LLM = 18.43
-Avg Score - Agreement: AToM-Net = 19.14 | Naive LLM = 18.43
-
--- AToM-Net vs Greedy Adversary (100 Games) --
-Walk-Away (%)        : AToM-Net = 8.6% | Greedy = --
-Avg Score - All      : AToM-Net = 11.10 | Greedy = 25.11
-Avg Score - Agreement: AToM-Net = 12.14 | Greedy = 27.47
-
--- AToM-Net Self-Play (100 Games) --
-Walk-Away (%)        : 0.0%
-Avg Score - All      : P1 = 18.14 | P2 = 20.44
-Avg Score - Agreement: P1 = 18.14 | P2 = 20.44
-
--- Theory of Mind (ToM) Tracking Performance on NegotiationToM --
 Desire Tracking (Agent 1, per-turn) : 62.45%
 Desire Tracking (Agent 2, per-turn) : 65.38%
 Belief Tracking (Per-turn consistency) : 61.00%
@@ -25,34 +10,9 @@ Belief Consistency (Full dialogues) : 7.68%
 Utterance Intention Micro F1 : 100.00%
 Utterance Intention Macro F1 : 21.11%
 
--- Ablation Study: Impact of Neuro-Symbolic Components --
-Full AToM-Net                     : Average Utility = 23.30
-Without Reflexion Memory          : Average Utility = 21.15 (Δ = -2.15, -9.2%)
-Without Economic Validator        : Average Utility = 16.40 (Δ = -6.90, -29.6%)
 
--- Summary of Strategic Performance --
-Self-Play (AToM vs AToM)           : P1 = 18.14 | P2 = 20.44 | Walk-Away = 0.0%
-AToM-Net vs Naive LLM              : P1 = 19.14 | P2 = 18.43 | Walk-Away = 0.0%
-AToM-Net vs Greedy Adversary       : P1 = 11.10 | P2 = 25.11 | Walk-Away = 8.6%
 
--- Partial NegotiationToM Run (live snapshot from README) --
-Progress: 2380 / 2380 instances processed (5.8%)
 
-TURN-LEVEL EXACT MATCHES:
-Agent 1 Desire: 43.07%
-Agent 1 Belief : 21.17%
-Agent 2 Desire: 52.55%
-Agent 2 Belief : 18.98%
 
-THE "ALL" SCORE (Desire+Belief+Intention Perfect Match): 4.38%
-
-CONVERSATION CONSISTENCY (tracked dialogues):
-Unique Dialogues Tracked: 24
-Desire Consistency: 0.00%
-Belief Consistency: 0.00%
-
-UTTERANCE INTENTION:
-Micro F1: 44.05%
-Macro F1: 32.35%
 
 ===============================================
