@@ -1,13 +1,13 @@
 === EXPERIMENT: AToM-Net vs GREEDY ===
 Games Processed: 100 / 100
 
-1. Walk-Away (%): 31.0%
+1. Walk-Away (%): 8.6%
 
 2. Avg. Score-All (P1 vs P2):
-   AToM-Net (P1): 9.98
-   GREEDY (P2): 20.18
+   AToM-Net (P1): 11.10
+   GREEDY (P2): 25.11
 
 3. Avg. Score-Agreement (P1 vs P2):
-   AToM-Net (P1): 12.22
-   GREEDY (P2): 27.00
+   AToM-Net (P1): 12.14
+   GREEDY (P2): 27.47
 ==================================
