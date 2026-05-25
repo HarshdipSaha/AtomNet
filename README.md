@@ -626,13 +626,11 @@ cd "game theory" && jupyter notebook
 
 ## Comparison with ASTRA
 
-See the analysis section below the README for a detailed comparison between AToM-Net and ASTRA (EMNLP 2025).
-
+check paper
 ---
 
 ## References
 
 - CaSiNo: A Corpus of Campsite Negotiation Dialogues (Chawla et al., 2021)
 - Reflexion: Language Agents with Verbal Reinforcement Learning (Shinn et al., 2023)
-- EMO: Earth-Mover-based Opponent Modeling (Xu et al., 2023)
 - ASTRA: A Negotiation Agent with Adaptive and Strategic Reasoning (Kwon et al., EMNLP 2025)
