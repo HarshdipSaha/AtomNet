@@ -28,7 +28,26 @@ The paper's headline utility (
  vs 
 ), with no explanation. Every downstream result (the ablation deltas, the ASTRA comparison) is anchored on 
 , a number never reconciled with the main results.
+equal spiit goint ~ 50), so it is hot Pareto-optimar even by the paper's own standard.
 
+
+---The deception-risk EMA (Eq. 12) likely does little as configured. With B = 0.2, the update dt+1 = Bdt + (1 - B)C gives the history only 20 weight and the current turn 80, so dt essentially
+tracks the latest contradiction and barely accumulates evidence across turns, which works against its stated goal of telling a one-off bluff apart from a persistently deceptive opponent.
+
+
+----4) The paper's headline utility (
+) cannot be located in the main results table. The "Full AToM-Net" utility is 
+ in both Table 4 (ablation) and Table 3 (vs. ASTRA), and Table 4's caption describes it as "average utility over 
+ scenarios against the Naive LLM baseline." But the directly comparable cell in Table 1, "AToM-Net vs Naive LLM," is 
+ (over 
+ scenarios), and the prose reaffirms "
+ vs 
+" for that matchup. The same condition (AToM-Net vs Naive) is thus reported as both 
+ and 
+, differing only in scenario count (
+ vs 
+), with no explanation. Every downstream result (the ablation deltas, the ASTRA comparison) is anchored on 
+, a number never reconciled with the main results
 A core motivational claim (Eq. 7) is impossible under the paper's own utility model. Section 3 asserts that logrolling yields 
  ("both agents can achieve utilities exceeding 
 "). But there are 
