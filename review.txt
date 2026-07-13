@@ -1,0 +1,157 @@
+Official Review of Submission5615 by Reviewer dTUx
+Official Reviewby Reviewer dTUx05 Jul 2026, 02:22 (modified: 12 Jul 2026, 20:56)Program Chairs, Senior Area Chairs, Area Chairs, Reviewers Submitted, Authors, Reviewer dTUxRevisions
+Paper Summary:
+This paper proposes AToM-Net, a neuro-symbolic approach to LLM-based multi-issue negotiation that separates language understanding from decision-making, pairing an LLM that infers the opponent's preferences with symbolic modules for consistency checking and expected-utility offer selection.
+
+Summary Of Strengths:
+The paper targets a real and relevant problem (RLHF-aligned models conceding too readily in negotiation) and frames it clearly.
+The neuro-symbolic decoupling is a reasonable and interpretable design.
+Summary Of Weaknesses:
+The described experimental setup is technically impossible. Section 6 states "GPT-4o-mini is deployed via the vLLM inference engine." GPT-4o-mini is a closed OpenAI model whose weights are not released; vLLM is a self-hosted engine that loads open-weight checkpoints and cannot serve it (its "OpenAI-compatible API" only fronts locally hosted open models and does not proxy to OpenAI's hosted model). So the configuration cannot exist as written.
+
+The reported self-play joint utility does not equal the sum of its own components. Section 7 reports a self-play "joint utility of 
+," but Table 1's self-play row gives the two agents 
+ and 
+, which sum to 
+. The headline self-play number cannot be reproduced from the paper's own per-agent scores, a basic internal-consistency failure.
+
+The paper's headline utility (
+) cannot be located in the main results table. The "Full AToM-Net" utility is 
+ in both Table 4 (ablation) and Table 3 (vs. ASTRA), and Table 4's caption describes it as "average utility over 
+ scenarios against the Naive LLM baseline." But the directly comparable cell in Table 1, "AToM-Net vs Naive LLM," is 
+ (over 
+ scenarios), and the prose reaffirms "
+ vs 
+" for that matchup. The same condition (AToM-Net vs Naive) is thus reported as both 
+ and 
+, differing only in scenario count (
+ vs 
+), with no explanation. Every downstream result (the ablation deltas, the ASTRA comparison) is anchored on 
+, a number never reconciled with the main results.
+
+A core motivational claim (Eq. 7) is impossible under the paper's own utility model. Section 3 asserts that logrolling yields 
+ ("both agents can achieve utilities exceeding 
+"). But there are 
+ unit-items, each worth at most 
+ to whoever holds it, so 
+; under the complementary 
+ preferences the paper actually uses, the maximum joint is 
+ (the paper's own "rational Pareto-optimal logroll" caps there, and its Game-90 case study yields 
+). Requiring both agents to exceed 
+ implies a joint above 
+, which exceeds the 
+ ceiling, a contradiction. Relatedly, the self-play joint of 
+ that §7 labels "successful Pareto-optimal logrolling" is well below the achievable 
+ and only modestly above the naive equal split (joint 
+), so it is not Pareto-optimal even by the paper's own standard.
+
+The deception-risk EMA (Eq. 12) likely does little as configured. With 
+, the update 
+ gives the history only 
+ weight and the current turn 
+, so 
+ essentially tracks the latest contradiction and barely accumulates evidence across turns, which works against its stated goal of telling a one-off bluff apart from a persistently deceptive opponent.
+
+The Utterance Intention results in Table 2 are hard to interpret. A Micro F1 of 
+ alongside a Macro F1 of only 
+ is an unusual pairing that may reflect a metric or label-set artifact rather than uniformly strong performance. The authors should clarify how these numbers were computed.
+
+Comments Suggestions And Typos:
+Fix the "Table ??" references and unify the system name to "AToM-Net."
+
+Confidence: 3 =  Pretty sure, but there's a chance I missed something. Although I have a good feel for this area in general, I did not carefully check the paper's details, e.g., the math or experimental design.
+Soundness: 1.5
+Excitement: 2 = Potentially Interesting: this paper does not resonate with me, but it might with others in the *ACL community.
+Overall Assessment: 2 = Resubmit next cycle: I think this paper needs substantial revisions that can be completed by the next ARR cycle.
+Ethical Concerns:
+There are no concerns with this submission
+
+Reproducibility: 3 = They could reproduce the results with some difficulty. The settings of parameters are underspecified or subjectively determined, and/or the training/evaluation data are not widely available.
+Datasets: 3 = Potentially useful: Someone might find the new datasets useful for their work.
+Software: 3 = Potentially useful: Someone might find the new software useful for their work.
+Knowledge Of Or Educated Guess At Author Identity: No
+Knowledge Of Paper: N/A, I do not know anything about the paper from outside sources
+Knowledge Of Paper Source: N/A, I do not know anything about the paper from outside sources
+Impact Of Knowledge Of Paper: N/A, I do not know anything about the paper from outside sources
+Reviewer Certification: I certify that the review I entered accurately reflects my assessment of the work. If you used any type of automated tool to help you craft your review, I hereby certify that its use was restricted to improving grammar and style, and the substance of the review is either my own work or the work of an acknowledged secondary reviewer.
+Publication Ethics Policy Compliance: I did not use any generative AI tools for this review
+Add:
+Official Review of Submission5615 by Reviewer TUgc
+Official Reviewby Reviewer TUgc03 Jul 2026, 04:56 (modified: 12 Jul 2026, 20:56)Program Chairs, Senior Area Chairs, Area Chairs, Reviewers Submitted, Authors, Reviewer TUgcRevisions
+Paper Summary:
+This paper proposes AToM-Net, a neuro-symbolic negotiation framework that improves the strategic reasoning of LLM-based negotiation agents by separating language generation from decision making. The framework combines Bayesian opponent belief tracking, an economic consistency validator for detecting deceptive behaviors, a symbolic utility optimization module, and Reflexion-based memory for continual adaptation. Experiments on the CaSiNo negotiation benchmark and the NegotiationToM benchmark show that AToM-Net achieves improved negotiation utility, stronger robustness against adversarial opponents, and better Theory-of-Mind reasoning compared with standard LLM-based negotiation baselines.
+
+Summary Of Strengths:
+Well-motivated architecture that explicitly addresses a practical weakness of LLM negotiation agents. The paper identifies an interesting failure mode—termed language collapse—where RLHF-trained LLMs prioritize politeness and conversational alignment over strategic utility maximization. Although similar phenomena such as alignment tax and sycophancy have been discussed in prior work, the paper presents a coherent architectural solution by explicitly separating language generation from decision making. This design is intuitive, easy to understand, and well aligned with recent trends toward modular LLM agents.
+
+The neuro-symbolic framework is interpretable and modular. Unlike end-to-end prompting approaches, AToM-Net introduces explicit Bayesian belief tracking, symbolic utility optimization, and consistency verification. Each component has a clearly defined role and mathematical formulation, making the reasoning process substantially more interpretable than black-box prompting methods. The modular design also potentially allows individual components to be replaced or improved independently, increasing the framework's extensibility.
+
+The paper evaluates the proposed framework from multiple perspectives. Instead of reporting only negotiation utility, the experiments consider several complementary evaluation settings, including negotiation against naïve LLMs, greedy adversaries, self-play, Theory-of-Mind reasoning on NegotiationToM, human evaluation, and component ablation studies. Evaluating both negotiation outcomes and internal belief tracking provides a broader understanding of the proposed architecture than relying on a single benchmark.
+
+The proposed architecture demonstrates robustness against adversarial negotiation behavior. The Economic Consistency Validator and reservation-value decision mechanism provide a principled way to reject irrational or exploitative agreements. Experimental results suggest that the framework maintains negotiation rationality under adversarial settings while achieving efficient agreements during self-play. This robustness is practically valuable for real-world negotiation agents where deceptive behaviors frequently occur.
+
+Summary Of Weaknesses:
+The empirical evaluation is relatively limited and does not sufficiently support the paper's broad claims. Although the paper presents several experiments, nearly all negotiation evaluations are conducted on the CaSiNo benchmark with only 100 simulated episodes. Such a limited experimental setting makes it difficult to conclude that the proposed framework generalizes to broader negotiation scenarios. Furthermore, many claims regarding scalability, robustness, and general applicability are stronger than what the current experimental evidence supports.
+
+Some experimental results raise questions that are not discussed. For example, Table 2 reports perfect Micro-F1 (100%) but relatively poor Macro-F1 (21.11%) for utterance intention prediction, suggesting severe class imbalance. Similarly, AToM-Net performs worse than GPT-4 in desire consistency and belief consistency despite outperforming it on strict ToM accuracy. These seemingly contradictory findings deserve deeper analysis but receive little discussion in the paper.
+
+Comparisons with state-of-the-art negotiation systems are incomplete and not entirely convincing. The comparison with ASTRA is largely descriptive rather than experimentally rigorous. It is unclear whether both systems were evaluated under identical environments, prompts, models, computational budgets, and evaluation protocols. Likewise, comparisons against NegotiationArena and other recent LLM negotiation frameworks are absent. Consequently, it remains difficult to assess the true empirical advantage of AToM-Net over existing negotiation systems.
+
+Several important design choices are heuristic and insufficiently justified. The Bayesian update procedure, contradiction penalty, deception risk update, decay coefficient α, EMA parameter β, reservation value estimation, and acceptance indicator are largely manually specified without theoretical justification or sensitivity analysis. Since these hyperparameters directly affect negotiation behavior, the paper would benefit from ablation or robustness experiments examining how performance changes under different parameter settings.
+
+Comments Suggestions And Typos:
+Several tables are incorrectly referenced as "Table ??", suggesting unresolved LaTeX references.
+
+The notation is occasionally inconsistent (e.g., ATOM-Net vs. AToM-Net).
+
+Confidence: 4 = Quite sure. I tried to check the important points carefully. It's unlikely, though conceivable, that I missed something that should affect my ratings.
+Soundness: 2.5
+Excitement: 3 = Interesting: I might mention some points of this paper to others and/or attend its presentation in a conference if there's time.
+Overall Assessment: 2.5 = Borderline Findings
+Ethical Concerns:
+There are no concerns with this submission
+
+Needs Ethics Review: No
+Reproducibility: 3 = They could reproduce the results with some difficulty. The settings of parameters are underspecified or subjectively determined, and/or the training/evaluation data are not widely available.
+Datasets: 4 = Useful: I would recommend the new datasets to other researchers or developers for their ongoing work.
+Software: 4 = Useful: I would recommend the new software to other researchers or developers for their ongoing work.
+Knowledge Of Or Educated Guess At Author Identity: No
+Knowledge Of Paper: N/A, I do not know anything about the paper from outside sources
+Knowledge Of Paper Source: N/A, I do not know anything about the paper from outside sources
+Impact Of Knowledge Of Paper: N/A, I do not know anything about the paper from outside sources
+Reviewer Certification: I certify that the review I entered accurately reflects my assessment of the work. If you used any type of automated tool to help you craft your review, I hereby certify that its use was restricted to improving grammar and style, and the substance of the review is either my own work or the work of an acknowledged secondary reviewer.
+Publication Ethics Policy Compliance: I did not use any generative AI tools for this review
+Add:
+Official Review of Submission5615 by Reviewer 1Ne4
+Official Reviewby Reviewer 1Ne401 Jul 2026, 09:14 (modified: 12 Jul 2026, 20:56)Program Chairs, Senior Area Chairs, Area Chairs, Reviewers Submitted, Authors, Reviewer 1Ne4Revisions
+Paper Summary:
+This paper presents a large language model negotiation intelligent agent framework named AToM-Net. The core contribution is to decouple language generation from strategy reasoning through Bayesian belief state engine, economic consistency validator, and game-theoretic decision engine, thereby alleviating the "language collapse" problem where LLMs make excessive concessions in negotiations. Experiments show that this method demonstrates certain advantages in terms of negotiation effectiveness and robustness.
+
+Summary Of Strengths:
+The overall structure of this paper is reasonable and the narrative logic is clear. The AToM-Net framework has a certain degree of originality and is logically consistent.
+The experiments evaluate AToM-Net under multiple settings, including self-play, comparison with a Naive LLM baseline, and interaction with a greedy adversary, providing a comprehensive assessment of the method’s applicability across different negotiation scenarios.
+This article focuses on issues such as excessive language alignment, premature concessions, and inconsistent strategies in LLM negotiations, and it holds certain research value.
+Summary Of Weaknesses:
+Although AToM-Net performs well on some structured ToM metrics, it underperforms GPT-4 on Desire Consistency and Belief Consistency, suggesting that its long-horizon belief tracking remains insufficiently stable. This weakens the evidence for the paper’s claim about robust ToM reasoning and belief-state tracking.
+The ablation study shows that the Economic Validator and Reflexion Memory contribute to performance, but it lacks ablations for other key components of the architecture, for instance, the symbolic decision engine. I suggest adding these ablation experiments for a more complete module-level analysis.
+The references are generally quite recent, but they lack the latest papers from 2026. It is suggested to supplement and discuss several highly relevant works from 2026.
+Comments Suggestions And Typos:
+1.There are writing issues like "Table ??" in the text. It is suggested to correct them.
+
+Confidence: 4 = Quite sure. I tried to check the important points carefully. It's unlikely, though conceivable, that I missed something that should affect my ratings.
+Soundness: 3 = Acceptable: This study provides sufficient support for its main claims. Some minor points may need extra support or details.
+Excitement: 2.5
+Overall Assessment: 2 = Resubmit next cycle: I think this paper needs substantial revisions that can be completed by the next ARR cycle.
+Ethical Concerns:
+None
+
+Needs Ethics Review: No
+Reproducibility: 3 = They could reproduce the results with some difficulty. The settings of parameters are underspecified or subjectively determined, and/or the training/evaluation data are not widely available.
+Datasets: 1 = No usable datasets submitted.
+Software: 1 = No usable software released.
+Knowledge Of Or Educated Guess At Author Identity: No
+Knowledge Of Paper: N/A, I do not know anything about the paper from outside sources
+Knowledge Of Paper Source: N/A, I do not know anything about the paper from outside sources
+Impact Of Knowledge Of Paper: N/A, I do not know anything about the paper from outside sources
+Reviewer Certification: I certify that the review I entered accurately reflects my assessment of the work. If you used any type of automated tool to help you craft your review, I hereby certify that its use was restricted to improving grammar and style, and the substance of the review is either my own work or the work of an acknowledged secondary reviewer.
+Publication Ethics Policy Compliance: I did not use any generative AI tools for this review
